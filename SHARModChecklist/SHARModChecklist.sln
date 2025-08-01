@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHARModChecklist", "SHARModChecklist\SHARModChecklist.csproj", "{ACB77296-8883-4A29-82AA-D3DDA3EBD1F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SHARMemory", "..\SHARMemory\SHARMemory\SHARMemory\SHARMemory.csproj", "{7335AA1B-39A3-680F-9A8E-948A0A54968F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACB77296-8883-4A29-82AA-D3DDA3EBD1F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACB77296-8883-4A29-82AA-D3DDA3EBD1F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACB77296-8883-4A29-82AA-D3DDA3EBD1F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACB77296-8883-4A29-82AA-D3DDA3EBD1F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7335AA1B-39A3-680F-9A8E-948A0A54968F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7335AA1B-39A3-680F-9A8E-948A0A54968F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7335AA1B-39A3-680F-9A8E-948A0A54968F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7335AA1B-39A3-680F-9A8E-948A0A54968F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE09208F-5F6D-4ACF-87A8-52B381538342}
+	EndGlobalSection
+EndGlobal

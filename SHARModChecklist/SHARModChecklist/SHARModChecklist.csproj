@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <PlatformTarget>x86</PlatformTarget>
+	  <PublishSingleFile>true</PublishSingleFile>
+	  <SelfContained>false</SelfContained>
+	  <RuntimeIdentifier>win-x86</RuntimeIdentifier>
+	  <Title>SHAR Mod Checklist</Title>
+	  <Authors>Proddy</Authors>
+	  <Company>Donut Team</Company>
+	  <Description>A tool that uses the SHARMemory library to provide a realtime checklist of the Simpsons Hit &amp; Run mods.</Description>
+	  <Version>1.0.0</Version>
+	  <AssemblyVersion>1.0.0.0</AssemblyVersion>
+	  <FileVersion>1.0.0.0</FileVersion>
+	  <FileVersion>1.0.0.0</FileVersion>
+	  <ApplicationIcon>256x256.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="256x256.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SHARMemory\SHARMemory\SHARMemory\SHARMemory.csproj" />
+  </ItemGroup>
+
+</Project>

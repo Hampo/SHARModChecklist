@@ -1,0 +1,2557 @@
+{
+  "ModName": "FCM Full Game Plus",
+  "TextBibleDefaults": {
+    "H_NAC3": "Homer - Nacho Man",
+    "H_ZOMB": "Homer - Zombie"
+  },
+  "Levels": [
+    {
+      "Cards": [
+        {
+          "Name": "Home Made Football",
+          "Location": "Behind Simpson's House"
+        },
+        {
+          "Name": "Crab Juice",
+          "Location": "Kwik-E-Mart"
+        },
+        {
+          "Name": "Insanity Pepper",
+          "Location": "Power Plant"
+        },
+        {
+          "Name": "Spinemelter 2000",
+          "Location": "Springfield Park Building"
+        },
+        {
+          "Name": "Parchment",
+          "Location": "Car Wash"
+        },
+        {
+          "Name": "Carbon Rod",
+          "Location": "Lighthouse"
+        },
+        {
+          "Name": "Mr. Sparkle Box",
+          "Location": "Dam Rock"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_bbq.p3d",
+          "Location": "Barbeque"
+        },
+        {
+          "Filename": "gag_gas.p3d",
+          "Location": "Radioactive Gas Tank"
+        },
+        {
+          "Filename": "gag_shel.p3d",
+          "Location": "Bomb Shelter"
+        },
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Simpson's Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Neighbor's Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Kwik-E-Mart ATM"
+        },
+        {
+          "Filename": "gag_tv.p3d",
+          "Location": "Simpson's TV"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Talky Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_mgr.p3d",
+          "Location": "Merry Go Round"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry the Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Kwik-E-Mart Silent Alarm"
+        },
+        {
+          "Filename": "gag_jar.p3d",
+          "Location": "Pickled Eggs"
+        },
+        {
+          "Filename": "gag_flm.p3d",
+          "Location": "Flaming Drinks"
+        },
+        {
+          "Filename": "gag_slot.p3d",
+          "Location": "Slot Machine"
+        },
+        {
+          "Filename": "gag_cata.p3d",
+          "Location": "Cat Catapult"
+        },
+        {
+          "Filename": "gag_tony.p3d",
+          "Location": "Cement Truck"
+        },
+        {
+          "Filename": "gag_bomb.p3d",
+          "Location": "Nuclear Missile"
+        },
+        {
+          "Filename": "gag_car.p3d",
+          "Location": "Toy Car"
+        },
+        {
+          "Filename": "l2_dump.p3d",
+          "Location": "Downtown Dumpster"
+        },
+        {
+          "Filename": "gag_racm.p3d",
+          "Location": "Radioactive Man"
+        },
+        {
+          "Filename": "gag_clnk.p3d",
+          "Location": "Killer Clank"
+        },
+        {
+          "Filename": "gag_matt.p3d",
+          "Location": "Matter Transporter"
+        },
+        {
+          "Filename": "gag_flag.p3d",
+          "Location": "Camp Bart Flag"
+        },
+        {
+          "Filename": "gag_pant.p3d",
+          "Location": "Hot Pants"
+        },
+        {
+          "Filename": "gag_kids.p3d",
+          "Location": "Ball Drop"
+        },
+        {
+          "Filename": "l3_dump.p3d",
+          "Location": "Seaside Dumpster"
+        },
+        {
+          "Filename": "gag_alrm.p3d",
+          "Location": "Observatory Silent Alarm"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_lemon",
+          "Location": "Neighbor's Playground"
+        },
+        {
+          "Locator": "w_schoolroof1",
+          "Location": "School Roof Left"
+        },
+        {
+          "Locator": "w_bonuscar",
+          "Location": "Gold House"
+        },
+        {
+          "Locator": "w_stonetemple",
+          "Location": "Stonecutters Tunnel 1"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Trailer Park Top"
+        },
+        {
+          "Locator": "w_trailor2",
+          "Location": "Trailer Park Bottom"
+        },
+        {
+          "Locator": "w_cardguard",
+          "Location": "Stonecutters Tunnel 2"
+        },
+        {
+          "Locator": "w_bridge1",
+          "Location": "Bridge by Cemetery"
+        },
+        {
+          "Locator": "w_bridge2",
+          "Location": "Bridge by Cemetery Far"
+        },
+        {
+          "Locator": "w_barn",
+          "Location": "Barnyard"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Neighbor's Backyard"
+        },
+        {
+          "Locator": "w_flanders",
+          "Location": "Flander's Backyard"
+        },
+        {
+          "Locator": "w_wiggum",
+          "Location": "Wiggum's Backyard"
+        },
+        {
+          "Locator": "w_kwickemart",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Locator": "w_lardlad",
+          "Location": "Lard Lad's Roof"
+        },
+        {
+          "Locator": "w_gasroof",
+          "Location": "Gas Station Pump"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "School Roof Right"
+        },
+        {
+          "Locator": "w_playground",
+          "Location": "School Playground"
+        },
+        {
+          "Locator": "w_schoolstairs",
+          "Location": "Back of School"
+        },
+        {
+          "Locator": "w_tower",
+          "Location": "Tower"
+        },
+        {
+          "Locator": "static_bee2",
+          "Location": "Power Plant 1"
+        },
+        {
+          "Locator": "static_bee3",
+          "Location": "Power Plant 2"
+        },
+        {
+          "Locator": "static_bee4",
+          "Location": "Power Plant 3"
+        },
+        {
+          "Locator": "w_hospital",
+          "Location": "Hospital"
+        },
+        {
+          "Locator": "w_museum",
+          "Location": "Museum"
+        },
+        {
+          "Locator": "w_krusty1",
+          "Location": "Krusty Burger by Police Station"
+        },
+        {
+          "Locator": "w_carwash",
+          "Location": "Carwash"
+        },
+        {
+          "Locator": "w_railstair",
+          "Location": "Train Station Stairs"
+        },
+        {
+          "Locator": "w_rail2",
+          "Location": "Side Train Roof"
+        },
+        {
+          "Locator": "w_mono1",
+          "Location": "Monorail Station Stairs"
+        },
+        {
+          "Locator": "w_popcycle",
+          "Location": "Downtown Lard Lad's Roof"
+        },
+        {
+          "Locator": "w_fountain",
+          "Location": "Town Hall 1"
+        },
+        {
+          "Locator": "w_townhall",
+          "Location": "Town Hall 2"
+        },
+        {
+          "Locator": "w_gazebo",
+          "Location": "Gazebo"
+        },
+        {
+          "Locator": "w_roof",
+          "Location": "Springfield Park Building"
+        },
+        {
+          "Locator": "w_legitroof",
+          "Location": "Legitimate Businessman's Roof 1"
+        },
+        {
+          "Locator": "w_legitroof2",
+          "Location": "Legitimate Businessman's Roof 2"
+        },
+        {
+          "Locator": "w_moesroof",
+          "Location": "Moe's Tavern Roof"
+        },
+        {
+          "Locator": "w_rail1",
+          "Location": "Far Train Roof"
+        },
+        {
+          "Locator": "w_roundroom",
+          "Location": "Train Station Shortcut"
+        },
+        {
+          "Locator": "w_police",
+          "Location": "Court House"
+        },
+        {
+          "Locator": "w_mono2",
+          "Location": "Monorail Station Roof Far"
+        },
+        {
+          "Locator": "w_mono3",
+          "Location": "Monorail Station Roof"
+        },
+        {
+          "Locator": "w_comicroof",
+          "Location": "Android's Dungeon Roof"
+        },
+        {
+          "Locator": "w_bowl",
+          "Location": "Bowlarama Roof"
+        },
+        {
+          "Locator": "w_lighthouse",
+          "Location": "Lighthouse"
+        },
+        {
+          "Locator": "w_kstage2",
+          "Location": "Beach"
+        },
+        {
+          "Locator": "w_night",
+          "Location": "KrustyLu's Studio A"
+        },
+        {
+          "Locator": "w_offramp",
+          "Location": "Off-Ramp Inn"
+        },
+        {
+          "Locator": "w_dam1",
+          "Location": "Dam Bottom"
+        }
+      ]
+    },
+    {
+      "Cards": [
+        {
+          "Name": "Head of Jebediah",
+          "Location": "Jebediah"
+        },
+        {
+          "Name": "AM Radio Toy",
+          "Location": "Train Roof"
+        },
+        {
+          "Name": "Bonestorm Game",
+          "Location": "Springfield Bank Back Alley"
+        },
+        {
+          "Name": "\u0022Big Butt Skinner\u0022",
+          "Location": "Alleyway Shortcut near Stonecutters"
+        },
+        {
+          "Name": "Mr. Honeybunny",
+          "Location": "Trailer Park"
+        },
+        {
+          "Name": "Driver's License",
+          "Location": "Bowlarama"
+        },
+        {
+          "Name": "Pregnancy Test",
+          "Location": "KrustyLu Studios' Balcony"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Simpson's Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Neighbor's Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Kwik-E-Mart ATM"
+        },
+        {
+          "Filename": "gag_tv.p3d",
+          "Location": "Simpson's TV"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Talky Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry the Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Kwik-E-Mart Silent Alarm"
+        },
+        {
+          "Filename": "gag_jar.p3d",
+          "Location": "Pickled Eggs"
+        },
+        {
+          "Filename": "gag_flm.p3d",
+          "Location": "Flaming Drinks"
+        },
+        {
+          "Filename": "gag_love.p3d",
+          "Location": "Love Tester"
+        },
+        {
+          "Filename": "gag_slot.p3d",
+          "Location": "Slot Machine"
+        },
+        {
+          "Filename": "gag_cata.p3d",
+          "Location": "Cat Catapult"
+        },
+        {
+          "Filename": "gag_tony.p3d",
+          "Location": "Cement Truck"
+        },
+        {
+          "Filename": "gag_bomb.p3d",
+          "Location": "Nuclear Missile"
+        },
+        {
+          "Filename": "gag_milk.p3d",
+          "Location": "Rat's Milk"
+        },
+        {
+          "Filename": "gag_car.p3d",
+          "Location": "Toy Car"
+        },
+        {
+          "Filename": "l2_dump.p3d",
+          "Location": "Downtown Dumpster"
+        },
+        {
+          "Filename": "gag_mol2.p3d",
+          "Location": "Hans Moleman Picture"
+        },
+        {
+          "Filename": "gag_racm.p3d",
+          "Location": "Radioactive Man"
+        },
+        {
+          "Filename": "gag_clnk.p3d",
+          "Location": "Killer Clank"
+        },
+        {
+          "Filename": "gag_matt.p3d",
+          "Location": "Matter Transporter"
+        },
+        {
+          "Filename": "gag_perp.p3d",
+          "Location": "Perpetual Motion Machine"
+        },
+        {
+          "Filename": "gag_flag.p3d",
+          "Location": "Camp Bart Flag"
+        },
+        {
+          "Filename": "gag_pant.p3d",
+          "Location": "Hot Pants"
+        },
+        {
+          "Filename": "gag_kids.p3d",
+          "Location": "Ball Drop"
+        },
+        {
+          "Filename": "l3_dump.p3d",
+          "Location": "Seaside Dumpster"
+        },
+        {
+          "Filename": "gag_alrm.p3d",
+          "Location": "Observatory Silent Alarm"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_lemon",
+          "Location": "Neighbor's Playground"
+        },
+        {
+          "Locator": "w_schoolroof1",
+          "Location": "School Roof Left"
+        },
+        {
+          "Locator": "w_bonuscar",
+          "Location": "Gold House"
+        },
+        {
+          "Locator": "w_stonetemple",
+          "Location": "Stonecutters Tunnel 1"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Trailer Park Top"
+        },
+        {
+          "Locator": "w_trailor2",
+          "Location": "Trailer Park Bottom"
+        },
+        {
+          "Locator": "w_cardguard",
+          "Location": "Stonecutters Tunnel 2"
+        },
+        {
+          "Locator": "w_bridge1",
+          "Location": "Bridge by Cemetery"
+        },
+        {
+          "Locator": "w_bridge2",
+          "Location": "Bridge by Cemetery Far"
+        },
+        {
+          "Locator": "w_barn",
+          "Location": "Barnyard"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Neighbor's Backyard"
+        },
+        {
+          "Locator": "w_flanders",
+          "Location": "Flander's Backyard"
+        },
+        {
+          "Locator": "w_wiggum",
+          "Location": "Wiggum's Backyard"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "School Roof Right"
+        },
+        {
+          "Locator": "w_playground",
+          "Location": "School Playground"
+        },
+        {
+          "Locator": "w_schoolstairs",
+          "Location": "Back of School"
+        },
+        {
+          "Locator": "w_hospital",
+          "Location": "Hospital"
+        },
+        {
+          "Locator": "w_museum",
+          "Location": "Museum"
+        },
+        {
+          "Locator": "w_krusty1",
+          "Location": "Krusty Burger by Police Station"
+        },
+        {
+          "Locator": "w_carwash",
+          "Location": "Carwash"
+        },
+        {
+          "Locator": "w_railstair",
+          "Location": "Train Station Stairs"
+        },
+        {
+          "Locator": "w_rail2",
+          "Location": "Side Train Roof"
+        },
+        {
+          "Locator": "w_mono1",
+          "Location": "Monorail Station Stairs"
+        },
+        {
+          "Locator": "w_popcycle",
+          "Location": "Downtown Lard Lad's Roof"
+        },
+        {
+          "Locator": "w_fountain",
+          "Location": "Town Hall 1"
+        },
+        {
+          "Locator": "w_townhall",
+          "Location": "Town Hall 2"
+        },
+        {
+          "Locator": "w_gazebo",
+          "Location": "Gazebo"
+        },
+        {
+          "Locator": "w_roof",
+          "Location": "Springfield Park Building"
+        },
+        {
+          "Locator": "w_legitroof",
+          "Location": "Legitimate Businessman's Roof 1"
+        },
+        {
+          "Locator": "w_legitroof2",
+          "Location": "Legitimate Businessman's Roof 2"
+        },
+        {
+          "Locator": "w_moesroof",
+          "Location": "Moe's Tavern Roof"
+        },
+        {
+          "Locator": "w_rail1",
+          "Location": "Far Train Roof"
+        },
+        {
+          "Locator": "w_roundroom,",
+          "Location": "Train Station Shortcut"
+        },
+        {
+          "Locator": "w_police",
+          "Location": "Court House"
+        },
+        {
+          "Locator": "w_mono2",
+          "Location": "Monorail Station Roof Far"
+        },
+        {
+          "Locator": "w_mono3",
+          "Location": "Monorail Station Roof"
+        },
+        {
+          "Locator": "w_comicroof",
+          "Location": "Android's Dungeon Roof"
+        },
+        {
+          "Locator": "w_bowl",
+          "Location": "Bowlarama Roof"
+        },
+        {
+          "Locator": "w_lighthouse",
+          "Location": "Lighthouse"
+        },
+        {
+          "Locator": "w_dockcrane",
+          "Location": "C-Spanker Back Side"
+        },
+        {
+          "Locator": "w_duff2",
+          "Location": "Duff Blimp Entrance"
+        },
+        {
+          "Locator": "w_kstage1",
+          "Location": "Main KrustyLu Stage"
+        },
+        {
+          "Locator": "w_night",
+          "Location": "KrustyLu's Studio A"
+        },
+        {
+          "Locator": "w_culvert",
+          "Location": "Well Culvert"
+        },
+        {
+          "Locator": "w_offramp",
+          "Location": "Off-Ramp Inn"
+        },
+        {
+          "Locator": "w_dam1",
+          "Location": "Dam Bottom"
+        },
+        {
+          "Locator": "w_hype",
+          "Location": "Planet Hype"
+        },
+        {
+          "Locator": "w_shipstairs",
+          "Location": "C-Spanker Front Side"
+        },
+        {
+          "Locator": "w_duff1",
+          "Location": "Duff Blimp"
+        },
+        {
+          "Locator": "w_kamp2",
+          "Location": "Kamp Krusty Back Side"
+        }
+      ]
+    },
+    {
+      "Cards": [
+        {
+          "Name": "Angel Skeleton",
+          "Location": "Android's Dungeon Roof"
+        },
+        {
+          "Name": "Bart's Soul",
+          "Location": "Front of C-Spanker"
+        },
+        {
+          "Name": "Lisa Lionheart",
+          "Location": "Dam"
+        },
+        {
+          "Name": "Lisa's Valentine",
+          "Location": "Wiggum's Backyard"
+        },
+        {
+          "Name": "Lisa's Machine",
+          "Location": "Stonecutters Tunnel"
+        },
+        {
+          "Name": "Evil Braces",
+          "Location": "Legitimate Businessman's Roof"
+        },
+        {
+          "Name": "Soy Pop",
+          "Location": "Stadium Fountain"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_gas.p3d",
+          "Location": "Radioactive Gas Tank"
+        },
+        {
+          "Filename": "gag_shel.p3d",
+          "Location": "Bomb Shelter"
+        },
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Simpson's Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Neighbor's Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Kwik-E-Mart ATM"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Talky Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry the Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Kwik-E-Mart Silent Alarm"
+        },
+        {
+          "Filename": "gag_jar.p3d",
+          "Location": "Pickled Eggs"
+        },
+        {
+          "Filename": "gag_flm.p3d",
+          "Location": "Flaming Drinks"
+        },
+        {
+          "Filename": "gag_love.p3d",
+          "Location": "Love Tester"
+        },
+        {
+          "Filename": "gag_cata.p3d",
+          "Location": "Cat Catapult"
+        },
+        {
+          "Filename": "gag_tony.p3d",
+          "Location": "Cement Truck"
+        },
+        {
+          "Filename": "gag_bomb.p3d",
+          "Location": "Nuclear Missile"
+        },
+        {
+          "Filename": "gag_milk.p3d",
+          "Location": "Rat's Milk"
+        },
+        {
+          "Filename": "gag_car.p3d",
+          "Location": "Toy Car"
+        },
+        {
+          "Filename": "l2_dump.p3d",
+          "Location": "Downtown Dumpster"
+        },
+        {
+          "Filename": "gag_mol2.p3d",
+          "Location": "Hans Moleman Picture"
+        },
+        {
+          "Filename": "gag_racm.p3d",
+          "Location": "Radioactive Man"
+        },
+        {
+          "Filename": "gag_clnk.p3d",
+          "Location": "Killer Clank"
+        },
+        {
+          "Filename": "gag_matt.p3d",
+          "Location": "Matter Transporter"
+        },
+        {
+          "Filename": "gag_perp.p3d",
+          "Location": "Perpetual Motion Machine"
+        },
+        {
+          "Filename": "gag_flag.p3d",
+          "Location": "Camp Bart Flag"
+        },
+        {
+          "Filename": "gag_pant.p3d",
+          "Location": "Hot Pants"
+        },
+        {
+          "Filename": "gag_kids.p3d",
+          "Location": "Ball Drop"
+        },
+        {
+          "Filename": "l3_dump.p3d",
+          "Location": "Seaside Dumpster"
+        },
+        {
+          "Filename": "gag_alrm.p3d",
+          "Location": "Observatory Silent Alarm"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_bonuscar",
+          "Location": "Gold House"
+        },
+        {
+          "Locator": "w_stonetemple",
+          "Location": "Stonecutters Tunnel 1"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Trailer Park Top"
+        },
+        {
+          "Locator": "w_bridge1",
+          "Location": "Bridge by Cemetery"
+        },
+        {
+          "Locator": "w_bridge2",
+          "Location": "Bridge by Cemetery Far"
+        },
+        {
+          "Locator": "w_barn",
+          "Location": "Barnyard"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Neighbor's Backyard"
+        },
+        {
+          "Locator": "w_flanders",
+          "Location": "Flander's Backyard"
+        },
+        {
+          "Locator": "w_kwickemart",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Locator": "w_gasroof",
+          "Location": "Gas Station Pump"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "School Roof Right"
+        },
+        {
+          "Locator": "w_playground",
+          "Location": "School Playground"
+        },
+        {
+          "Locator": "w_tower",
+          "Location": "Tower"
+        },
+        {
+          "Locator": "w_hospital",
+          "Location": "Hospital"
+        },
+        {
+          "Locator": "w_museum",
+          "Location": "Museum"
+        },
+        {
+          "Locator": "w_krusty1",
+          "Location": "Krusty Burger by Police Station"
+        },
+        {
+          "Locator": "w_carwash",
+          "Location": "Carwash"
+        },
+        {
+          "Locator": "w_railstair",
+          "Location": "Train Station Stairs"
+        },
+        {
+          "Locator": "w_rail2",
+          "Location": "Side Train Roof"
+        },
+        {
+          "Locator": "w_mono1",
+          "Location": "Monorail Station Stairs"
+        },
+        {
+          "Locator": "w_popcycle",
+          "Location": "Downtown Lard Lad's Roof"
+        },
+        {
+          "Locator": "w_fountain",
+          "Location": "Town Hall 1"
+        },
+        {
+          "Locator": "w_townhall",
+          "Location": "Town Hall 2"
+        },
+        {
+          "Locator": "w_roof",
+          "Location": "Springfield Park Building"
+        },
+        {
+          "Locator": "w_legitroof",
+          "Location": "Legitimate Businessman's Roof 1"
+        },
+        {
+          "Locator": "w_legitroof2",
+          "Location": "Legitimate Businessman's Roof 2"
+        },
+        {
+          "Locator": "w_rail1",
+          "Location": "Far Train Roof"
+        },
+        {
+          "Locator": "w_roundroom",
+          "Location": "Train Station Shortcut"
+        },
+        {
+          "Locator": "w_police",
+          "Location": "Court House"
+        },
+        {
+          "Locator": "w_mono2",
+          "Location": "Monorail Station Roof Far"
+        },
+        {
+          "Locator": "w_comicroof",
+          "Location": "Android's Dungeon Roof"
+        },
+        {
+          "Locator": "w_bowl",
+          "Location": "Bowlarama Roof"
+        },
+        {
+          "Locator": "w_lighthouse",
+          "Location": "Lighthouse"
+        },
+        {
+          "Locator": "w_shipcrane",
+          "Location": "C-Spanker Hot Pants"
+        },
+        {
+          "Locator": "w_dockcrane",
+          "Location": "C-Spanker Back Side"
+        },
+        {
+          "Locator": "w_duff2",
+          "Location": "Duff Blimp Entrance"
+        },
+        {
+          "Locator": "w_kstage1",
+          "Location": "Main KrustyLu Stage"
+        },
+        {
+          "Locator": "w_kstage2",
+          "Location": "Beach"
+        },
+        {
+          "Locator": "w_night",
+          "Location": "KrustyLu's Studio A"
+        },
+        {
+          "Locator": "w_culvert",
+          "Location": "Well Culvert"
+        },
+        {
+          "Locator": "w_offramp",
+          "Location": "Off-Ramp Inn"
+        },
+        {
+          "Locator": "w_dam1",
+          "Location": "Dam Bottom"
+        },
+        {
+          "Locator": "w_hype",
+          "Location": "Planet Hype"
+        },
+        {
+          "Locator": "w_shipstairs",
+          "Location": "C-Spanker Front Side"
+        },
+        {
+          "Locator": "w_duff1",
+          "Location": "Duff Blimp Right"
+        },
+        {
+          "Locator": "w_duff3",
+          "Location": "Duff Blimp Left"
+        },
+        {
+          "Locator": "w_dam2",
+          "Location": "Dam Top"
+        },
+        {
+          "Locator": "w_observatory",
+          "Location": "Observatory"
+        },
+        {
+          "Locator": "w_kamp1",
+          "Location": "Kamp Krusty Front Side"
+        },
+        {
+          "Locator": "w_kamp2",
+          "Location": "Kamp Krusty Back Side"
+        }
+      ]
+    },
+    {
+      "Cards": [
+        {
+          "Name": "Mr. Plow Jacket",
+          "Location": "Gas Station Roof"
+        },
+        {
+          "Name": "Burns Portrait",
+          "Location": "Orange Roof Building"
+        },
+        {
+          "Name": "Love Letter",
+          "Location": "Trailer Park"
+        },
+        {
+          "Name": "\u0022Homer\u0022 Bowling Ball",
+          "Location": "Construction Site"
+        },
+        {
+          "Name": "Red Blazer",
+          "Location": "Train Roof"
+        },
+        {
+          "Name": "Boudoir Album",
+          "Location": "Floating Card"
+        },
+        {
+          "Name": "Pepper Spray",
+          "Location": "Planet Hype"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_bbq.p3d",
+          "Location": "Barbeque"
+        },
+        {
+          "Filename": "gag_gas.p3d",
+          "Location": "Radioactive Gas Tank"
+        },
+        {
+          "Filename": "gag_shel.p3d",
+          "Location": "Bomb Shelter"
+        },
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Simpson's Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Neighbor's Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Kwik-E-Mart ATM"
+        },
+        {
+          "Filename": "gag_tv.p3d",
+          "Location": "Simpson's TV"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Talky Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_mgr.p3d",
+          "Location": "Merry Go Round"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry the Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Kwik-E-Mart Silent Alarm"
+        },
+        {
+          "Filename": "gag_jar.p3d",
+          "Location": "Pickled Eggs"
+        },
+        {
+          "Filename": "gag_flm.p3d",
+          "Location": "Flaming Drinks"
+        },
+        {
+          "Filename": "gag_love.p3d",
+          "Location": "Love Tester"
+        },
+        {
+          "Filename": "gag_slot.p3d",
+          "Location": "Slot Machine"
+        },
+        {
+          "Filename": "gag_milk.p3d",
+          "Location": "Rat's Milk"
+        },
+        {
+          "Filename": "gag_car.p3d",
+          "Location": "Toy Car"
+        },
+        {
+          "Filename": "l2_dump.p3d",
+          "Location": "Downtown Dumpster"
+        },
+        {
+          "Filename": "gag_mol2.p3d",
+          "Location": "Hans Moleman Picture"
+        },
+        {
+          "Filename": "gag_racm.p3d",
+          "Location": "Radioactive Man"
+        },
+        {
+          "Filename": "gag_clnk.p3d",
+          "Location": "Killer Clank"
+        },
+        {
+          "Filename": "gag_matt.p3d",
+          "Location": "Matter Transporter"
+        },
+        {
+          "Filename": "gag_perp.p3d",
+          "Location": "Perpetual Motion Machine"
+        },
+        {
+          "Filename": "gag_flag.p3d",
+          "Location": "Camp Bart Flag"
+        },
+        {
+          "Filename": "gag_bomb.p3d",
+          "Location": "Nuclear Missile"
+        },
+        {
+          "Filename": "l3_dump.p3d",
+          "Location": "Seaside Dumpster"
+        },
+        {
+          "Filename": "gag_alrm.p3d",
+          "Location": "Observatory Silent Alarm"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_kwickemart",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Locator": "w_gasroof",
+          "Location": "Gas Station Pump"
+        },
+        {
+          "Locator": "w_schoolroof1",
+          "Location": "School Roof Left"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "School Roof Right"
+        },
+        {
+          "Locator": "w_tower",
+          "Location": "Tower"
+        },
+        {
+          "Locator": "w_burns1",
+          "Location": "Burns' Mansion Stairs"
+        },
+        {
+          "Locator": "w_chess1",
+          "Location": "Chessboard Left"
+        },
+        {
+          "Locator": "w_chess2",
+          "Location": "Chessboard Right"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Trailer Park Top"
+        },
+        {
+          "Locator": "w_trailor2",
+          "Location": "Trailer Park Bottom"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Neighbor's Backyard 1"
+        },
+        {
+          "Locator": "w_flanders",
+          "Location": "Flander's Backyard"
+        },
+        {
+          "Locator": "w_neighbor1",
+          "Location": "Neighbor's Backyard 2"
+        },
+        {
+          "Locator": "w_wiggum",
+          "Location": "Wiggum's Backyard Right"
+        },
+        {
+          "Locator": "w_wiggum2",
+          "Location": "Wiggum's Backyard Left"
+        },
+        {
+          "Locator": "w_gasroof2",
+          "Location": "Gas Station Roof"
+        },
+        {
+          "Locator": "w_schoolstairs",
+          "Location": "Back of School"
+        },
+        {
+          "Locator": "w_burns2",
+          "Location": "Burns' Mansion Office"
+        },
+        {
+          "Locator": "static_bee2",
+          "Location": "Power Plant"
+        },
+        {
+          "Locator": "static_bee6",
+          "Location": "Barnyard"
+        },
+        {
+          "Locator": "w_roof",
+          "Location": "Springfield Bank Roof"
+        },
+        {
+          "Locator": "w_hospital",
+          "Location": "Hospital"
+        },
+        {
+          "Locator": "w_museum",
+          "Location": "Museum"
+        },
+        {
+          "Locator": "w_railstair",
+          "Location": "Train Station Stairs"
+        },
+        {
+          "Locator": "w_rail2",
+          "Location": "Side Train Roof 2"
+        },
+        {
+          "Locator": "w_rail3",
+          "Location": "Side Train Roof 1"
+        },
+        {
+          "Locator": "w_needle1",
+          "Location": "Sit 'n' Rotate 1"
+        },
+        {
+          "Locator": "w_needle2",
+          "Location": "Sit 'n' Rotate 2"
+        },
+        {
+          "Locator": "w_fountain",
+          "Location": "Stadium Fountain"
+        },
+        {
+          "Locator": "w_townhall",
+          "Location": "Town Hall"
+        },
+        {
+          "Locator": "w_legitroof",
+          "Location": "Legitimate Businessman's Roof"
+        },
+        {
+          "Locator": "w_moesroof",
+          "Location": "Moe's Tavern Roof"
+        },
+        {
+          "Locator": "w_police",
+          "Location": "Police Station"
+        },
+        {
+          "Locator": "w_mono3",
+          "Location": "Monorail Station Roof"
+        },
+        {
+          "Locator": "w_comicroof",
+          "Location": "Android's Dungeon Roof"
+        },
+        {
+          "Locator": "w_bowl",
+          "Location": "Bowlarama Roof"
+        },
+        {
+          "Locator": "w_lighthouse",
+          "Location": "Lighthouse"
+        },
+        {
+          "Locator": "w_dockcrane",
+          "Location": "C-Spanker Front Right"
+        },
+        {
+          "Locator": "w_kstage1",
+          "Location": "Main KrustyLu Stage"
+        },
+        {
+          "Locator": "w_kstage2",
+          "Location": "KrustyLu Studios Balcony"
+        },
+        {
+          "Locator": "w_night",
+          "Location": "KrustyLu's Studio A"
+        },
+        {
+          "Locator": "w_offramp",
+          "Location": "Off-Ramp Inn"
+        },
+        {
+          "Locator": "w_observatory1",
+          "Location": "Observatory Left"
+        },
+        {
+          "Locator": "w_observatory2",
+          "Location": "Observatory Right"
+        },
+        {
+          "Locator": "w_kamp1",
+          "Location": "Kamp Krusty 2"
+        },
+        {
+          "Locator": "w_kamp2",
+          "Location": "Kamp Krusty 1"
+        },
+        {
+          "Locator": "w_hype2",
+          "Location": "Planet Hype"
+        },
+        {
+          "Locator": "w_shipcrane",
+          "Location": "C-Spanker Hot Pants"
+        },
+        {
+          "Locator": "w_duff3",
+          "Location": "Duff Blimp"
+        },
+        {
+          "Locator": "w_dam2",
+          "Location": "Dam Top"
+        }
+      ]
+    },
+    {
+      "Cards": [
+        {
+          "Name": "Apu's T-Shirt",
+          "Location": "Legitimate Businessman's Stairs"
+        },
+        {
+          "Name": "Pin Pals Shirt",
+          "Location": "Matlock Expressway"
+        },
+        {
+          "Name": "Prop 24 Sign",
+          "Location": "Springfield Bank Roof"
+        },
+        {
+          "Name": "Baby Feeder",
+          "Location": "Burns' Mansion Room"
+        },
+        {
+          "Name": "Ganesh Costume",
+          "Location": "Tower MonkaS"
+        },
+        {
+          "Name": "Chutney Squishee",
+          "Location": "Casino Ramp"
+        },
+        {
+          "Name": "Hot Dog",
+          "Location": "Culvert Rock"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_bbq.p3d",
+          "Location": "Barbeque"
+        },
+        {
+          "Filename": "gag_gas.p3d",
+          "Location": "Radioactive Gas Tank"
+        },
+        {
+          "Filename": "gag_shel.p3d",
+          "Location": "Bomb Shelter"
+        },
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Simpson's Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Neighbor's Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Kwik-E-Mart ATM"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Talky Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_mgr.p3d",
+          "Location": "Merry Go Round"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry the Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Kwik-E-Mart Silent Alarm"
+        },
+        {
+          "Filename": "gag_jar.p3d",
+          "Location": "Pickled Eggs"
+        },
+        {
+          "Filename": "gag_flm.p3d",
+          "Location": "Flaming Drinks"
+        },
+        {
+          "Filename": "gag_love.p3d",
+          "Location": "Love Tester"
+        },
+        {
+          "Filename": "gag_slot.p3d",
+          "Location": "Slot Machine"
+        },
+        {
+          "Filename": "gag_milk.p3d",
+          "Location": "Rat's Milk"
+        },
+        {
+          "Filename": "gag_car.p3d",
+          "Location": "Toy Car"
+        },
+        {
+          "Filename": "l2_dump.p3d",
+          "Location": "Downtown Dumpster"
+        },
+        {
+          "Filename": "gag_mol2.p3d",
+          "Location": "Hans Moleman Picture"
+        },
+        {
+          "Filename": "gag_racm.p3d",
+          "Location": "Radioactive Man"
+        },
+        {
+          "Filename": "gag_clnk.p3d",
+          "Location": "Killer Clank"
+        },
+        {
+          "Filename": "gag_matt.p3d",
+          "Location": "Matter Transporter"
+        },
+        {
+          "Filename": "gag_perp.p3d",
+          "Location": "Perpetual Motion Machine"
+        },
+        {
+          "Filename": "gag_flag.p3d",
+          "Location": "Camp Bart Flag"
+        },
+        {
+          "Filename": "gag_pant_a.p3d",
+          "Location": "Hot Pants"
+        },
+        {
+          "Filename": "gag_bomb.p3d",
+          "Location": "Nuclear Missile"
+        },
+        {
+          "Filename": "l3_dump.p3d",
+          "Location": "Seaside Dumpster"
+        },
+        {
+          "Filename": "gag_alrm.p3d",
+          "Location": "Observatory Silent Alarm"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_kwickemart",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Locator": "w_gasroof",
+          "Location": "Gas Station Pump"
+        },
+        {
+          "Locator": "w_schoolroof1",
+          "Location": "School Roof Left"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "School Roof Right"
+        },
+        {
+          "Locator": "w_tower",
+          "Location": "Tower"
+        },
+        {
+          "Locator": "w_burns1",
+          "Location": "Burns' Mansion Stairs"
+        },
+        {
+          "Locator": "w_chess1",
+          "Location": "Chessboard Left"
+        },
+        {
+          "Locator": "w_chess2",
+          "Location": "Chessboard Right"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Trailer Park Top"
+        },
+        {
+          "Locator": "w_trailor2",
+          "Location": "Trailer Park Bottom"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Neighbor's Backyard 1"
+        },
+        {
+          "Locator": "w_flanders",
+          "Location": "Flander's Backyard"
+        },
+        {
+          "Locator": "w_neighbor1",
+          "Location": "Neighbor's Backyard 2"
+        },
+        {
+          "Locator": "w_wiggum",
+          "Location": "Wiggum's Backyard Right"
+        },
+        {
+          "Locator": "w_gasroof2",
+          "Location": "Gas Station Roof"
+        },
+        {
+          "Locator": "w_burns2",
+          "Location": "Burns' Mansion Office"
+        },
+        {
+          "Locator": "w_roof",
+          "Location": "Springfield Bank Roof"
+        },
+        {
+          "Locator": "w_hospital",
+          "Location": "Hospital"
+        },
+        {
+          "Locator": "w_museum",
+          "Location": "Museum"
+        },
+        {
+          "Locator": "w_railstair",
+          "Location": "Train Station Stairs"
+        },
+        {
+          "Locator": "w_rail2",
+          "Location": "Side Train Roof 2"
+        },
+        {
+          "Locator": "w_rail3",
+          "Location": "Side Train Roof 1"
+        },
+        {
+          "Locator": "w_needle1",
+          "Location": "Sit 'n' Rotate 1"
+        },
+        {
+          "Locator": "w_needle2",
+          "Location": "Sit 'n' Rotate 2"
+        },
+        {
+          "Locator": "w_fountain",
+          "Location": "Stadium Fountain"
+        },
+        {
+          "Locator": "w_townhall",
+          "Location": "Town Hall"
+        },
+        {
+          "Locator": "w_gazebo",
+          "Location": "Gazebo"
+        },
+        {
+          "Locator": "w_legitroof",
+          "Location": "Legitimate Businessman's Roof 1"
+        },
+        {
+          "Locator": "w_legitroof2",
+          "Location": "Legitimate Businessman's Roof 2"
+        },
+        {
+          "Locator": "w_moesroof",
+          "Location": "Moe's Tavern Roof"
+        },
+        {
+          "Locator": "w_rail1",
+          "Location": "Far Train Roof"
+        },
+        {
+          "Locator": "w_police",
+          "Location": "Police Station"
+        },
+        {
+          "Locator": "w_mono2",
+          "Location": "Monorail Station Roof Far"
+        },
+        {
+          "Locator": "w_mono3",
+          "Location": "Monorail Station Roof"
+        },
+        {
+          "Locator": "w_comicroof",
+          "Location": "Android's Dungeon Roof"
+        },
+        {
+          "Locator": "w_bowl",
+          "Location": "Bowlarama Roof"
+        },
+        {
+          "Locator": "w_lighthouse",
+          "Location": "Lighthouse"
+        },
+        {
+          "Locator": "w_dockcrane",
+          "Location": "C-Spanker Front Right"
+        },
+        {
+          "Locator": "w_kstage1",
+          "Location": "Main KrustyLu Stage"
+        },
+        {
+          "Locator": "w_kstage2",
+          "Location": "KrustyLu Studios Balcony"
+        },
+        {
+          "Locator": "w_night",
+          "Location": "KrustyLu's Studio A"
+        },
+        {
+          "Locator": "w_offramp",
+          "Location": "Off-Ramp Inn"
+        },
+        {
+          "Locator": "w_observatory1",
+          "Location": "Observatory Left"
+        },
+        {
+          "Locator": "w_observatory2",
+          "Location": "Observatory Right"
+        },
+        {
+          "Locator": "w_kamp1",
+          "Location": "Kamp Krusty 2"
+        },
+        {
+          "Locator": "w_kamp2",
+          "Location": "Kamp Krusty 1"
+        },
+        {
+          "Locator": "w_hype2",
+          "Location": "Planet Hype"
+        },
+        {
+          "Locator": "w_shipcrane",
+          "Location": "C-Spanker Hot Pants"
+        },
+        {
+          "Locator": "w_duff3",
+          "Location": "Duff Blimp"
+        },
+        {
+          "Locator": "w_dam2",
+          "Location": "Dam Top"
+        }
+      ]
+    },
+    {
+      "Cards": [
+        {
+          "Name": "Radioactive Man#1",
+          "Location": "Back of C-Spanker"
+        },
+        {
+          "Name": "\u0022BORT\u0022 License Plate",
+          "Location": "Duff Blimp"
+        },
+        {
+          "Name": "Bart T-Shirt",
+          "Location": "Broken Bridge"
+        },
+        {
+          "Name": "Australia Boot",
+          "Location": "Bridge at Cemetery"
+        },
+        {
+          "Name": "Itchy and Scratchy Cel",
+          "Location": "Simpson's Treehouse"
+        },
+        {
+          "Name": "Garbo Doll",
+          "Location": "Moe's Tavern Roof"
+        },
+        {
+          "Name": "Bart's Flying Hamster Science Project",
+          "Location": "Monorail Station Roof"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_bbq.p3d",
+          "Location": "Barbeque"
+        },
+        {
+          "Filename": "gag_gas.p3d",
+          "Location": "Radioactive Gas Tank"
+        },
+        {
+          "Filename": "gag_shel.p3d",
+          "Location": "Bomb Shelter"
+        },
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Simpson's Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Neighbor's Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Kwik-E-Mart ATM"
+        },
+        {
+          "Filename": "gag_tv.p3d",
+          "Location": "Simpson's TV"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Talky Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_mgr.p3d",
+          "Location": "Merry Go Round"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry the Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Kwik-E-Mart Silent Alarm"
+        },
+        {
+          "Filename": "gag_jar.p3d",
+          "Location": "Pickled Eggs"
+        },
+        {
+          "Filename": "gag_flm.p3d",
+          "Location": "Flaming Drinks"
+        },
+        {
+          "Filename": "gag_love.p3d",
+          "Location": "Love Tester"
+        },
+        {
+          "Filename": "gag_slot.p3d",
+          "Location": "Slot Machine"
+        },
+        {
+          "Filename": "gag_milk.p3d",
+          "Location": "Rat's Milk"
+        },
+        {
+          "Filename": "gag_car.p3d",
+          "Location": "Toy Car"
+        },
+        {
+          "Filename": "l2_dump.p3d",
+          "Location": "Downtown Dumpster"
+        },
+        {
+          "Filename": "gag_mol2.p3d",
+          "Location": "Hans Moleman Picture"
+        },
+        {
+          "Filename": "gag_racm.p3d",
+          "Location": "Radioactive Man"
+        },
+        {
+          "Filename": "gag_clnk.p3d",
+          "Location": "Killer Clank"
+        },
+        {
+          "Filename": "gag_matt.p3d",
+          "Location": "Matter Transporter"
+        },
+        {
+          "Filename": "gag_perp.p3d",
+          "Location": "Perpetual Motion Machine"
+        },
+        {
+          "Filename": "gag_flag.p3d",
+          "Location": "Camp Bart Flag"
+        },
+        {
+          "Filename": "gag_bomb.p3d",
+          "Location": "Nuclear Missile"
+        },
+        {
+          "Filename": "l3_dump.p3d",
+          "Location": "Seaside Dumpster"
+        },
+        {
+          "Filename": "gag_alrm.p3d",
+          "Location": "Observatory Silent Alarm"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_kwickemart",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Locator": "w_gasroof",
+          "Location": "Gas Station Pump"
+        },
+        {
+          "Locator": "w_schoolroof1",
+          "Location": "School Roof Left"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "School Roof Right"
+        },
+        {
+          "Locator": "w_tower",
+          "Location": "Tower"
+        },
+        {
+          "Locator": "w_burns1",
+          "Location": "Burns' Mansion Stairs"
+        },
+        {
+          "Locator": "w_chess1",
+          "Location": "Chessboard Left"
+        },
+        {
+          "Locator": "w_chess2",
+          "Location": "Chessboard Right"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Trailer Park Top"
+        },
+        {
+          "Locator": "w_trailor2",
+          "Location": "Trailer Park Bottom"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Neighbor's Backyard 1"
+        },
+        {
+          "Locator": "w_neighbor1",
+          "Location": "Neighbor's Backyard 2"
+        },
+        {
+          "Locator": "w_wiggum2",
+          "Location": "Wiggum's Backyard Left"
+        },
+        {
+          "Locator": "w_gasroof2",
+          "Location": "Gas Station Roof"
+        },
+        {
+          "Locator": "w_schoolstairs",
+          "Location": "Back of School"
+        },
+        {
+          "Locator": "static_bee2",
+          "Location": "Power Plant"
+        },
+        {
+          "Locator": "static_bee6",
+          "Location": "Barnyard"
+        },
+        {
+          "Locator": "w_roof",
+          "Location": "Springfield Bank Roof"
+        },
+        {
+          "Locator": "w_hospital",
+          "Location": "Hospital"
+        },
+        {
+          "Locator": "w_railstair",
+          "Location": "Train Station Stairs"
+        },
+        {
+          "Locator": "w_rail2",
+          "Location": "Side Train Roof 2"
+        },
+        {
+          "Locator": "w_rail3",
+          "Location": "Side Train Roof 1"
+        },
+        {
+          "Locator": "w_needle1",
+          "Location": "Sit 'n' Rotate 1"
+        },
+        {
+          "Locator": "w_needle2",
+          "Location": "Sit 'n' Rotate 2"
+        },
+        {
+          "Locator": "w_fountain",
+          "Location": "Stadium Fountain"
+        },
+        {
+          "Locator": "w_townhall",
+          "Location": "Town Hall"
+        },
+        {
+          "Locator": "w_legitroof",
+          "Location": "Legitimate Businessman's Roof"
+        },
+        {
+          "Locator": "w_moesroof",
+          "Location": "Moe's Tavern Roof"
+        },
+        {
+          "Locator": "w_police",
+          "Location": "Police Station"
+        },
+        {
+          "Locator": "w_mono3",
+          "Location": "Monorail Station Roof"
+        },
+        {
+          "Locator": "w_comicroof",
+          "Location": "Android's Dungeon Roof 2"
+        },
+        {
+          "Locator": "w_bowl",
+          "Location": "Bowlarama Roof"
+        },
+        {
+          "Locator": "w_lighthouse",
+          "Location": "Lighthouse"
+        },
+        {
+          "Locator": "w_dockcrane",
+          "Location": "C-Spanker Front Right"
+        },
+        {
+          "Locator": "w_kstage1",
+          "Location": "Main KrustyLu Stage"
+        },
+        {
+          "Locator": "w_kstage2",
+          "Location": "KrustyLu Studios Balcony"
+        },
+        {
+          "Locator": "w_night",
+          "Location": "KrustyLu's Studio A"
+        },
+        {
+          "Locator": "w_offramp",
+          "Location": "Off-Ramp Inn"
+        },
+        {
+          "Locator": "w_observatory1",
+          "Location": "Observatory Left"
+        },
+        {
+          "Locator": "w_observatory2",
+          "Location": "Observatory Right"
+        },
+        {
+          "Locator": "w_kamp1",
+          "Location": "Kamp Krusty 2"
+        },
+        {
+          "Locator": "w_kamp2",
+          "Location": "Kamp Krusty 1"
+        },
+        {
+          "Locator": "w_comicroof2",
+          "Location": "Android's Dungeon Roof 1"
+        },
+        {
+          "Locator": "w_hype2",
+          "Location": "Planet Hype"
+        },
+        {
+          "Locator": "w_shipcrane",
+          "Location": "C-Spanker Hot Pants"
+        },
+        {
+          "Locator": "w_shipstairs",
+          "Location": "C-Spanker Front Left"
+        },
+        {
+          "Locator": "w_duff2",
+          "Location": "Duff Blimp Entrance"
+        },
+        {
+          "Locator": "w_duff3",
+          "Location": "Duff Blimp"
+        },
+        {
+          "Locator": "w_dam1",
+          "Location": "Dam Bottom"
+        },
+        {
+          "Locator": "w_dam2",
+          "Location": "Dam Top"
+        }
+      ]
+    },
+    {
+      "Cards": [
+        {
+          "Name": "Soul Donut",
+          "Location": "Pool"
+        },
+        {
+          "Name": "Krusty Doll",
+          "Location": "Duff Brewery Parking Lot"
+        },
+        {
+          "Name": "Human Cookbook",
+          "Location": "Observatory"
+        },
+        {
+          "Name": "Time Travel Toaster",
+          "Location": "Lard Lad's Shoulder"
+        },
+        {
+          "Name": "Hell Toupee",
+          "Location": "Sit 'n' Rotate"
+        },
+        {
+          "Name": "Monkey's Paw",
+          "Location": "Barnyard"
+        },
+        {
+          "Name": "\u0022Smarch\u0022 Calendar",
+          "Location": "Die-N-Save"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_bbq.p3d",
+          "Location": "Barbeque"
+        },
+        {
+          "Filename": "l07_gas.p3d",
+          "Location": "Radioactive Gas Tank"
+        },
+        {
+          "Filename": "l07_swng.p3d",
+          "Location": "Simpson's Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Kwik-E-Mart ATM"
+        },
+        {
+          "Filename": "gag_tv.p3d",
+          "Location": "Simpson's TV"
+        },
+        {
+          "Filename": "l07_azte.p3d",
+          "Location": "Talky Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry the Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Kwik-E-Mart Silent Alarm"
+        },
+        {
+          "Filename": "gag_lamp.p3d",
+          "Location": "Bart's Krusty Lamp"
+        },
+        {
+          "Filename": "gag_bed.p3d",
+          "Location": "Bart's Bed"
+        },
+        {
+          "Filename": "gag_flm.p3d",
+          "Location": "Flaming Drinks"
+        },
+        {
+          "Filename": "gag_love.p3d",
+          "Location": "Love Tester"
+        },
+        {
+          "Filename": "gag_slot.p3d",
+          "Location": "Slot Machine"
+        },
+        {
+          "Filename": "gag_cata.p3d",
+          "Location": "Cat Catapult"
+        },
+        {
+          "Filename": "gag_milk.p3d",
+          "Location": "Rat's Milk"
+        },
+        {
+          "Filename": "gag_car.p3d",
+          "Location": "Toy Car"
+        },
+        {
+          "Filename": "l7_dump.p3d",
+          "Location": "Downtown Krusty Burger Dumpster"
+        },
+        {
+          "Filename": "gag_mol2.p3d",
+          "Location": "Hans Moleman Picture"
+        },
+        {
+          "Filename": "gag_racm.p3d",
+          "Location": "Radioactive Man"
+        },
+        {
+          "Filename": "gag_clnk.p3d",
+          "Location": "Killer Clank"
+        },
+        {
+          "Filename": "gag_matt.p3d",
+          "Location": "Matter Transporter"
+        },
+        {
+          "Filename": "gag_perp.p3d",
+          "Location": "Perpetual Motion Machine"
+        },
+        {
+          "Filename": "gag_flag.p3d",
+          "Location": "Camp Bart Flag"
+        },
+        {
+          "Filename": "gag_bomb.p3d",
+          "Location": "Nuclear Missile"
+        },
+        {
+          "Filename": "l3_dump.p3d",
+          "Location": "Seaside Dumpster"
+        },
+        {
+          "Filename": "gag_alrm.p3d",
+          "Location": "Observatory Silent Alarm"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Telescope"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_lemon",
+          "Location": "Burns' Mansion Office"
+        },
+        {
+          "Locator": "w_krustyRC",
+          "Location": "Krusty Burger Roof"
+        },
+        {
+          "Locator": "w_lardlads",
+          "Location": "Stonecutters Tunnel"
+        },
+        {
+          "Locator": "w_playground",
+          "Location": "Orange Roof Building"
+        },
+        {
+          "Locator": "w_schoolroof1",
+          "Location": "School UFO Tractor Beam"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "School Roof Left"
+        },
+        {
+          "Locator": "w_schoolroof3",
+          "Location": "School Roof Right"
+        },
+        {
+          "Locator": "w_tower",
+          "Location": "Tower"
+        },
+        {
+          "Locator": "w_barn",
+          "Location": "Barnyard"
+        },
+        {
+          "Locator": "w_plantlot2",
+          "Location": "Power Plant Parking Lot"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Chessboard"
+        },
+        {
+          "Locator": "w_simpsons2",
+          "Location": "Simpson's Fence"
+        },
+        {
+          "Locator": "w_flanders",
+          "Location": "Flander's Backyard"
+        },
+        {
+          "Locator": "w_wiggum",
+          "Location": "Wiggum's Backyard"
+        },
+        {
+          "Locator": "w_kwickemart",
+          "Location": "Burns' Mansion Balcony"
+        },
+        {
+          "Locator": "w_gasroof",
+          "Location": "Gas Station Roof"
+        },
+        {
+          "Locator": "w_bridge1",
+          "Location": "Bridge by Cemetery"
+        },
+        {
+          "Locator": "w_plantlot",
+          "Location": "Mr. Burns' Office"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Trailer Park 1"
+        },
+        {
+          "Locator": "w_trailor2",
+          "Location": "Trailer Park 2"
+        },
+        {
+          "Locator": "w_hospital",
+          "Location": "Hospital"
+        },
+        {
+          "Locator": "w_museum",
+          "Location": "Radioactive Man Left"
+        },
+        {
+          "Locator": "w_krusty1",
+          "Location": "Krusty Burger by Police Station"
+        },
+        {
+          "Locator": "w_carwash",
+          "Location": "Legitimate Businessman's Roof"
+        },
+        {
+          "Locator": "w_railstair",
+          "Location": "DMV Bus Crash"
+        },
+        {
+          "Locator": "w_rail2",
+          "Location": "Side Train Roof"
+        },
+        {
+          "Locator": "w_mono1",
+          "Location": "Sit 'n' Rotate"
+        },
+        {
+          "Locator": "w_popcycle",
+          "Location": "Downtown Lard Lad's Roof"
+        },
+        {
+          "Locator": "w_fountain",
+          "Location": "Stadium Fountain"
+        },
+        {
+          "Locator": "w_townhall",
+          "Location": "Downtown Fire Truck"
+        },
+        {
+          "Locator": "w_gazebo",
+          "Location": "Radioactive Man Right"
+        },
+        {
+          "Locator": "w_roof",
+          "Location": "Springfield Park Fountain"
+        },
+        {
+          "Locator": "w_moesroof",
+          "Location": "Lexicon Bookstore Roof"
+        },
+        {
+          "Locator": "w_rail1",
+          "Location": "Matlock Bridge Right"
+        },
+        {
+          "Locator": "w_roundroom",
+          "Location": "Matlock Expressway Shortcut"
+        },
+        {
+          "Locator": "w_police",
+          "Location": "Jebediah Statue"
+        },
+        {
+          "Locator": "w_mono2",
+          "Location": "Matlock Bridge Left"
+        },
+        {
+          "Locator": "w_mono3",
+          "Location": "Monorail Station Roof"
+        },
+        {
+          "Locator": "w_comicroof",
+          "Location": "Broken Bridge Rock"
+        },
+        {
+          "Locator": "w_bowl",
+          "Location": "Bowlarama Krusty Burger Roof"
+        },
+        {
+          "Locator": "w_lighthouse",
+          "Location": "C-Spanker Wheelhouse Platform"
+        },
+        {
+          "Locator": "w_shipcrane",
+          "Location": "C-Spanker Knight Boat Container"
+        },
+        {
+          "Locator": "w_dockcrane",
+          "Location": "Seaside Apartment Stairs"
+        },
+        {
+          "Locator": "w_duff2",
+          "Location": "Duff Brewery Crate"
+        },
+        {
+          "Locator": "w_kstage1",
+          "Location": "KrustyLu Hairpin"
+        },
+        {
+          "Locator": "w_kstage2",
+          "Location": "Duff Delivery Truck"
+        },
+        {
+          "Locator": "w_night",
+          "Location": "KrustyLu Trailer"
+        },
+        {
+          "Locator": "w_culvert",
+          "Location": "Culvert Rock"
+        },
+        {
+          "Locator": "w_offramp",
+          "Location": "Off-Ramp Inn"
+        },
+        {
+          "Locator": "w_dam1",
+          "Location": "Dam Bottom"
+        }
+      ]
+    }
+  ]
+}
