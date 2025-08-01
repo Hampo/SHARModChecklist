@@ -83,7 +83,7 @@ public partial class FrmMain : Form
         e.NewValue = e.CurrentValue;
     }
 
-    private async void TmrUpdater_Tick(object sender, EventArgs e)
+    private void TmrUpdater_Tick(object sender, EventArgs e)
     {
         var level = CBLevel.SelectedIndex;
         if (_updating || level == -1)
@@ -97,8 +97,6 @@ public partial class FrmMain : Form
         }
 
         using var mem = new SHARMemory.SHAR.Memory(p);
-        await UpdateModConfig(mem);
-
         if (mem.Singletons.CharacterSheetManager?.CharacterSheet is not CharacterSheet characterSheet)
         {
             CBLevel.SelectedIndex = -1;
