@@ -39,6 +39,42 @@ public partial class FrmMain : Form
         CBLevel.SelectedIndex = 0;
     }
 
+    private async Task UpdateModConfig(SHARMemory.SHAR.Memory mem)
+    {
+        var mainMod = mem.GetMainMod();
+        if (mainMod == null)
+        {
+            // I don't want to support vanilla SHAR right now
+            _modConfig = null;
+            CBLevel.SelectedIndex = -1;
+            return;
+        }
+
+        if (_modConfig?.ModName == mainMod)
+            return;
+
+        ModConfig? config = null;
+        try
+        {
+            config = FromFile($"{mainMod}.json");
+        }
+        catch (Exception ex)
+        {
+            Debugger.Break();
+        }
+
+        try
+        {
+            config ??= await FromURL($"https://raw.githubusercontent.com/Hampo/SHARModChecklist/refs/heads/main/ModConfigs/{mainMod}.json");
+        }
+        catch (Exception ex)
+        {
+            Debugger.Break();
+        }
+
+        _modConfig = config;
+    }
+
     private void CLB_DisableCheck(object sender, ItemCheckEventArgs e)
     {
         if (_updating)
@@ -61,49 +97,7 @@ public partial class FrmMain : Form
         }
 
         using var mem = new SHARMemory.SHAR.Memory(p);
-
-        var mainMod = mem.GetMainMod();
-        if (mainMod == null)
-        {
-            // I don't want to support vanilla SHAR right now
-            _modConfig = null;
-            CBLevel.SelectedIndex = -1;
-            return;
-        }
-        else
-        {
-            if (_modConfig == null || _modConfig.ModName != mainMod)
-            {
-                _modConfig = null;
-
-                try
-                {
-                    _modConfig = FromFile($"{mainMod}.json");
-                }
-                catch (Exception ex)
-                {
-                    Debugger.Break();
-                }
-
-                if (_modConfig == null)
-                {
-                    try
-                    {
-                        _modConfig = await FromURL($"https://www.github.com/Hampo/SHARModChecklist/ModConfigs/{mainMod}.json");
-                    }
-                    catch (Exception ex)
-                    {
-                        Debugger.Break();
-                    }
-                }
-
-                if (_modConfig == null)
-                {
-                    CBLevel.SelectedIndex = -1;
-                    return;
-                }
-            }
-        }
+        await UpdateModConfig(mem);
 
         if (mem.Singletons.CharacterSheetManager?.CharacterSheet is not CharacterSheet characterSheet)
         {
@@ -145,15 +139,8 @@ public partial class FrmMain : Form
         _updating = false;
     }
 
-    private void CBLevel_SelectedIndexChanged(object sender, EventArgs e)
+    private async void CBLevel_SelectedIndexChanged(object sender, EventArgs e)
     {
-        if (_modConfig == null)
-        {
-            CBLevel.SelectedIndex = -1;
-            return;
-        }
-
-
         var levelIndex = CBLevel.SelectedIndex;
         SetSelectedButton(levelIndex);
 
@@ -201,6 +188,13 @@ public partial class FrmMain : Form
         }
 
         using var mem = new SHARMemory.SHAR.Memory(p);
+        await UpdateModConfig(mem);
+        if (_modConfig == null)
+        {
+            CBLevel.SelectedIndex = -1;
+            return;
+        }
+
         if (mem.Singletons.CharacterSheetManager?.CharacterSheet is not CharacterSheet characterSheet)
         {
             CBLevel.SelectedIndex = -1;
