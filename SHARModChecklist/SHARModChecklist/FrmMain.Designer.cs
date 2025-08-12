@@ -58,7 +58,6 @@ partial class FrmMain
         LblMissions = new Label();
         LblStreetRaces = new Label();
         TmrUpdater = new System.Windows.Forms.Timer(components);
-        TTMain = new ToolTip(components);
         GBLevel.SuspendLayout();
         GBStats.SuspendLayout();
         ((System.ComponentModel.ISupportInitialize)SCGagsWasps).BeginInit();
@@ -349,7 +348,6 @@ partial class FrmMain
         GBCards.TabIndex = 4;
         GBCards.TabStop = false;
         GBCards.Text = "Cards";
-        TTMain.SetToolTip(GBCards, resources.GetString("GBCards.ToolTip"));
         // 
         // CLBCards
         // 
@@ -363,14 +361,13 @@ partial class FrmMain
         CLBCards.Name = "CLBCards";
         CLBCards.Size = new Size(225, 126);
         CLBCards.TabIndex = 0;
-        TTMain.SetToolTip(CLBCards, resources.GetString("CLBCards.ToolTip"));
         CLBCards.ItemCheck += CLB_DisableCheck;
         // 
         // CMSCards
         // 
         CMSCards.Items.AddRange(new ToolStripItem[] { TSMIShowCardLocationSpoilers });
         CMSCards.Name = "CMSCards";
-        CMSCards.Size = new Size(197, 48);
+        CMSCards.Size = new Size(197, 26);
         // 
         // TSMIShowCardLocationSpoilers
         // 
@@ -439,6 +436,7 @@ partial class FrmMain
         Controls.Add(CBLevel);
         Controls.Add(GBStats);
         Controls.Add(GBLevel);
+        Icon = (Icon)resources.GetObject("$this.Icon");
         Margin = new Padding(4, 3, 4, 3);
         MinimumSize = new Size(751, 558);
         Name = "FrmMain";
@@ -481,7 +479,6 @@ partial class FrmMain
     private System.Windows.Forms.GroupBox GBGags;
     private System.Windows.Forms.CheckedListBox CLBGags;
     private System.Windows.Forms.SplitContainer SCGagsWasps;
-    private ToolTip TTMain;
     private CheckBox CBDarkMode;
     private Button BtnLevel1;
     private Button BtnLevel2;
