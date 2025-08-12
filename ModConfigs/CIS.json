@@ -9,14 +9,21 @@
     "CBOB": "Sideshow Bob's Announcement Truck",
     "BLIMP_V": "Police Blimp",
     "K9_V": "Police K-9 Unit",
-    "TANK_V": "Police Tank"
+    "TANK_V": "Police Tank",
+    "CARD_TITLE_00": "Mission 1",
+    "CARD_TITLE_01": "Mission 2",
+    "CARD_TITLE_02": "Mission 3",
+    "CARD_TITLE_03": "Mission 4",
+    "CARD_TITLE_04": "Mission 5",
+    "CARD_TITLE_05": "Mission 6",
+    "CARD_TITLE_06": "Mission 7"
   },
   "Levels": [
     {
       "Cards": [
         {
           "Name": "Mission 1",
-          "Location": "Legitimate Businessmans' Social Club Roof"
+          "Location": "Social Club Roof"
         },
         {
           "Name": "Mission 2",
@@ -32,7 +39,7 @@
         },
         {
           "Name": "Mission 5",
-          "Location": "Legitimate Businessmans' Social Club Interior"
+          "Location": "Social Club Interior"
         },
         {
           "Name": "Mission 6",

@@ -9,7 +9,14 @@
     "WAGON_V": "Orange Station Wagon",
     "HONDA_V": "'79 Honda Accord",
     "VOLVO_V": "Skinner's Volvo",
-    "ASTRO_V": "Pontiac Astro Wagon"
+    "ASTRO_V": "Pontiac Astro Wagon",
+    "CARD_TITLE_00": "WEATHER STATION",
+    "CARD_TITLE_01": "BOOK OF WEATHER",
+    "CARD_TITLE_02": "HURRICANE CHOW",
+    "CARD_TITLE_03": "LEFTOVER SUPPLIES",
+    "CARD_TITLE_04": "RUBIK'S CUBE",
+    "CARD_TITLE_05": "FAMILY TOMBSTONES",
+    "CARD_TITLE_06": "I'M WITH STUPID"
   },
   "Levels": [
     {
