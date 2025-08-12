@@ -35,8 +35,27 @@ public partial class FrmMain : Form
         CBDarkMode.Checked = darkMode;
         CBLargeFont.Checked = largeFont;
 
+        if (Array.IndexOf(names, "LocationX") >= 0 && RegistryKey.GetValueKind("LocationX") == Microsoft.Win32.RegistryValueKind.DWord
+            && Array.IndexOf(names, "LocationY") >= 0 && RegistryKey.GetValueKind("LocationY") == Microsoft.Win32.RegistryValueKind.DWord)
+            Location = new Point((int)RegistryKey.GetValue("LocationX", 0), (int)RegistryKey.GetValue("LocationY", 0));
+
+        if (Array.IndexOf(names, "SizeWidth") >= 0 && RegistryKey.GetValueKind("SizeWidth") == Microsoft.Win32.RegistryValueKind.DWord
+            && Array.IndexOf(names, "SizeHeight") >= 0 && RegistryKey.GetValueKind("SizeHeight") == Microsoft.Win32.RegistryValueKind.DWord)
+            Size = new Size((int)RegistryKey.GetValue("SizeWidth", 0), (int)RegistryKey.GetValue("SizeHeight", 0));
+
         CBLevel.SelectedIndex = -1;
         CBLevel.SelectedIndex = 0;
+    }
+
+    private void FrmMain_FormClosing(object sender, FormClosingEventArgs e)
+    {
+        if (WindowState == FormWindowState.Normal)
+        {
+            RegistryKey.SetValue("LocationX", Location.X, Microsoft.Win32.RegistryValueKind.DWord);
+            RegistryKey.SetValue("LocationY", Location.Y, Microsoft.Win32.RegistryValueKind.DWord);
+            RegistryKey.SetValue("SizeWidth", Size.Width, Microsoft.Win32.RegistryValueKind.DWord);
+            RegistryKey.SetValue("SizeHeight", Size.Height, Microsoft.Win32.RegistryValueKind.DWord);
+        }
     }
 
     private async Task UpdateModConfig(SHARMemory.SHAR.Memory mem)

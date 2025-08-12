@@ -442,6 +442,7 @@ partial class FrmMain
         Name = "FrmMain";
         Padding = new Padding(4, 3, 4, 3);
         Text = "SHAR Mod Checklist";
+        FormClosing += FrmMain_FormClosing;
         Load += FrmMain_Load;
         GBLevel.ResumeLayout(false);
         GBLevel.PerformLayout();
