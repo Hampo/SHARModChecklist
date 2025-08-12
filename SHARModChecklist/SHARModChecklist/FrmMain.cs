@@ -172,7 +172,11 @@ public partial class FrmMain : Form
             SetControlText(Buttons[i], buttonText);
 
             if (i == level)
+            {
                 UpdateData(i, levelData, levelRewards, levelMerchandise, persistentObjectStates);
+                var progress = LevelProgress(i, levelData, levelRewards, levelMerchandise, persistentObjectStates);
+                SetControlText(GBStats, $"Stats - Level {i + 1} ({progress * 100:F1}%)");
+            }
         }
 
         _updating = false;
@@ -324,6 +328,73 @@ public partial class FrmMain : Form
         UpdateData(levelIndex, levelData, levelRewards, levelMerchandise, persistentObjectStates);
 
         _updating = false;
+    }
+
+    private static float LevelProgress(int level, LevelRecord levelData, LevelRewardRecord levelRewards, List<Merchandise> levelMerchandise, byte[] persistentObjectStates)
+    {
+        var numMissionsComplete = levelData.Missions.List.Where(x => x.Name != "m0" && x.Name != "m8" && x.Name != "NULL" && x.Completed).Count();
+        var missions = numMissionsComplete / 7f;
+
+        var bonusMission = levelData.BonusMission.Completed ? 1 : 0;
+
+        var numStreetRacesComplete = levelData.StreetRaces.List.Where(x => x.Completed).Count();
+        var streetRaces = numStreetRacesComplete / 3f;
+
+        var numSkinsPurchased = 0;
+        var numSkinsTotal = 0f;
+
+        var numCarsPurchased = 0;
+        var numCarsTotal = 0f;
+
+        void handleReward(Reward reward)
+        {
+            if (reward == null)
+                return;
+            if (reward.QuestType == Reward.QuestTypes.DefaultCar || reward.QuestType == Reward.QuestTypes.DefaultSkin)
+                return;
+
+            switch (reward.RewardType)
+            {
+                case Reward.RewardTypes.SkinOther:
+                    numSkinsTotal++;
+                    if (reward.Earned)
+                        numSkinsPurchased++;
+                    break;
+                case Reward.RewardTypes.PlayerCar:
+                    numCarsTotal++;
+                    if (reward.Earned)
+                        numCarsPurchased++;
+                    break;
+            }
+        }
+        handleReward(levelRewards.BonusMission);
+        handleReward(levelRewards.StreetRace);
+        handleReward(levelRewards.Cards);
+        handleReward(levelRewards.DefaultCar);
+        handleReward(levelRewards.DefaultSkin);
+        handleReward(levelRewards.GoldCards);
+        foreach (var merchandise in levelMerchandise)
+            handleReward(merchandise);
+
+        var skins = numSkinsPurchased / numSkinsTotal;
+        var cars = numCarsPurchased / numCarsTotal;
+
+        var numCardsCollected = levelData.Cards.List.Where(x => x.Completed).Count();
+        var cards = numCardsCollected / 7f;
+
+        var numGagsCollected = 0;
+        for (int i = 0; i < levelRewards.TotalGagsInLevel; i++)
+            if ((levelData.GagMask & (1 << i)) == 1)
+                numGagsCollected++;
+        var gags = numGagsCollected / (float)levelRewards.TotalGagsInLevel;
+
+        var numWaspsDestroyed = 0;
+        for (int i = 0; i < levelRewards.TotalWaspsInLevel; i++)
+            if (IsPersistentObjectDestroyed(persistentObjectStates, 75 + level, i))
+                numWaspsDestroyed++;
+        var wasps = numWaspsDestroyed / (float)levelRewards.TotalWaspsInLevel;
+
+        return (missions + bonusMission + streetRaces + skins + cars + cards + wasps + gags) / 8f;
     }
 
     private bool LevelComplete(int level, LevelRecord levelData, LevelRewardRecord levelRewards, List<Merchandise> levelMerchandise, byte[] persistentObjectStates)
