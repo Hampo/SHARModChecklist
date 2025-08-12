@@ -1,0 +1,188 @@
+{
+  "ModName": "SOS",
+  "DisplayName": "Storm Over Springfield",
+  "TextBibleDefaults": {
+    "H_BOWL": "Homer - Bowling",
+    "H_PLOW": "Homer - Mr. Plow",
+    "H_SUGAR": "Homer - Sugar Sugar",
+    "BLIMP_V": "Duff Blimp",
+    "WAGON_V": "Orange Station Wagon",
+    "HONDA_V": "'79 Honda Accord",
+    "VOLVO_V": "Skinner's Volvo",
+    "ASTRO_V": "Pontiac Astro Wagon"
+  },
+  "Levels": [
+    {
+      "Cards": [
+        {
+          "Name": "Weather Station",
+          "Location": "Treehouse Roof"
+        },
+        {
+          "Name": "Book of Weather",
+          "Location": "Roof of Krusty Burger by Kwik-E-Mart"
+        },
+        {
+          "Name": "Hurricane Chow",
+          "Location": "School Flagpole"
+        },
+        {
+          "Name": "Leftover Supplies",
+          "Location": "Rich Side Gas Station Awning"
+        },
+        {
+          "Name": "Rubik's Cube",
+          "Location": "Back of Burns' Mansion"
+        },
+        {
+          "Name": "Family Tombstones",
+          "Location": "Barn Roof"
+        },
+        {
+          "Name": "I'm With Stupid",
+          "Location": "Top of Bridge by Cemetery"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_bbq.p3d",
+          "Location": "Barbeque"
+        },
+        {
+          "Filename": "gag_gas.p3d",
+          "Location": "Radioactive Gas Tank"
+        },
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Simpsons' Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Neighbor's Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Kwik-E-Mart ATM"
+        },
+        {
+          "Filename": "gag_tv.p3d",
+          "Location": "Simpsons' TV"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Talky Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry the Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Kwik-E-Mart Silent Alarm"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_lemon",
+          "Location": "Neighbor's Playground"
+        },
+        {
+          "Locator": "w_schoolroof1",
+          "Location": "School Roof Left"
+        },
+        {
+          "Locator": "w_bonuscar",
+          "Location": "Gold House"
+        },
+        {
+          "Locator": "w_stonetemple",
+          "Location": "Stonecutters Tunnel 1"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Trailer Park Top"
+        },
+        {
+          "Locator": "w_trailor2",
+          "Location": "Trailer Park Bottom"
+        },
+        {
+          "Locator": "w_cardguard",
+          "Location": "Stonecutters Tunnel 2"
+        },
+        {
+          "Locator": "w_bridge1",
+          "Location": "Bridge by Cemetery"
+        },
+        {
+          "Locator": "w_bridge2",
+          "Location": "Bridge by Cemetery Far"
+        },
+        {
+          "Locator": "w_barn",
+          "Location": "Barnyard"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Neighbor's Backyard"
+        },
+        {
+          "Locator": "w_flanders",
+          "Location": "Flanders' Backyard"
+        },
+        {
+          "Locator": "w_wiggum",
+          "Location": "Wiggums' Backyard"
+        },
+        {
+          "Locator": "w_kwickemart",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Locator": "w_lardlad",
+          "Location": "Lard Lad's Roof"
+        },
+        {
+          "Locator": "w_gasroof",
+          "Location": "Gas Station Pump"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "School Roof Right"
+        },
+        {
+          "Locator": "w_playground",
+          "Location": "School Playground"
+        },
+        {
+          "Locator": "w_schoolstairs",
+          "Location": "Back of School"
+        },
+        {
+          "Locator": "w_tower",
+          "Location": "Tower"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "ModName": "CIS",
+  "DisplayName": "Cops: in Springfield",
+  "TextBibleDefaults": {
+    "W_DOLITTLE": "Wiggum - Dr. Dolittle",
+    "W_PI": "Wiggum - P.I.",
+    "W_REGULAR": "Wiggum - Regular Clothes",
+    "CFERRINI": "Impounded Ferrini",
+    "CBOB": "Sideshow Bob's Announcement Truck",
+    "BLIMP_V": "Police Blimp",
+    "K9_V": "Police K-9 Unit",
+    "TANK_V": "Police Tank"
+  },
+  "Levels": [
+    {
+      "Cards": [
+        {
+          "Name": "Mission 1",
+          "Location": "Legitimate Businessmans' Social Club Roof"
+        },
+        {
+          "Name": "Mission 2",
+          "Location": "DMV Interior"
+        },
+        {
+          "Name": "Mission 3",
+          "Location": "Krusty Burger by Construction Site"
+        },
+        {
+          "Name": "Mission 4",
+          "Location": "Train Station Water Tower"
+        },
+        {
+          "Name": "Mission 5",
+          "Location": "Legitimate Businessmans' Social Club Interior"
+        },
+        {
+          "Name": "Mission 6",
+          "Location": "Construction Site"
+        },
+        {
+          "Name": "Mission 7",
+          "Location": "C-Spanker Bow"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_jar.p3d",
+          "Location": "Pickled Eggs"
+        },
+        {
+          "Filename": "gag_flm.p3d",
+          "Location": "Flaming Drinks"
+        },
+        {
+          "Filename": "gag_love.p3d",
+          "Location": "Love Tester"
+        },
+        {
+          "Filename": "gag_slot.p3d",
+          "Location": "Slot Machine"
+        },
+        {
+          "Filename": "gag_cata.p3d",
+          "Location": "Cat Catapult"
+        },
+        {
+          "Filename": "gag_tony.p3d",
+          "Location": "Cement Truck"
+        },
+        {
+          "Filename": "gag_bomb.p3d",
+          "Location": "Nuclear Missile"
+        },
+       {
+          "Filename": "gag_milk.p3d",
+          "Location": "Rat's Milk"
+        },
+        {
+          "Filename": "gag_car.p3d",
+          "Location": "Toy Car"
+        },
+        {
+          "Filename": "l2_dump.p3d",
+          "Location": "Downtown Dumpster"
+        },
+        {
+          "Filename": "gag_mol2.p3d",
+          "Location": "Hans Moleman Picture"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_jebadiah",
+          "Location": "Jebediah Statue"
+        },
+        {
+          "Locator": "w_construct",
+          "Location": "Construction Site 1"
+        },
+        {
+          "Locator": "w_construct2",
+          "Location": "Construction Site 2"
+        },
+        {
+          "Locator": "w_trynsave",
+          "Location": "Try-N-Save"
+        },
+        {
+          "Locator": "w_carcrash",
+          "Location": "Expressway Car Crash"
+        },
+        {
+          "Locator": "w_parking",
+          "Location": "Hospital Parking Lot"
+        },
+        {
+          "Locator": "w_garages",
+          "Location": "Downtown Garages"
+        },
+        {
+          "Locator": "w_auction",
+          "Location": "Police Auction"
+        },
+        {
+          "Locator": "w_busstation",
+          "Location": "Bus Station"
+        },
+        {
+          "Locator": "w_fountain",
+          "Location": "Park Fountain"
+        },
+        {
+          "Locator": "w_monkey",
+          "Location": "Screaming Monkey Medical Research Center"
+        },
+        {
+          "Locator": "w_grocery",
+          "Location": "Glen's Grocery Roof"
+        },
+        {
+          "Locator": "w_railyardroom",
+          "Location": "Train Station Shortcut"
+        },
+        {
+          "Locator": "w_kburger",
+          "Location": "Krusty Burger by Construction Site"
+        },
+        {
+          "Locator": "w_firetruck",
+          "Location": "Downtown Fire Truck"
+        },
+        {
+          "Locator": "w_hospital",
+          "Location": "Hospital Entrance"
+        },
+        {
+          "Locator": "w_lexicon",
+          "Location": "Lexicon Roof"
+        },
+        {
+          "Locator": "w_highway",
+          "Location": "Matlock Expressway"
+        },
+        {
+          "Locator": "w_monorail",
+          "Location": "Monorail Track"
+        },
+        {
+          "Locator": "w_duffy",
+          "Location": "Duff Statue"
+        }
+      ]
+    }
+  ]
+}
