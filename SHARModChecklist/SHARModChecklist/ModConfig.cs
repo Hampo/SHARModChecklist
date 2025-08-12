@@ -1,10 +1,18 @@
-﻿namespace SHARModChecklist;
+﻿using System.Diagnostics;
+using System.Text;
+
+namespace SHARModChecklist;
 public class ModConfig
 {
     private static readonly HttpClient _httpClient = new();
     static ModConfig()
     {
-        _httpClient.DefaultRequestHeaders.TryAddWithoutValidation("User-Agent", "SHARModChecklist");
+        _httpClient.DefaultRequestHeaders.UserAgent.ParseAdd("SHARModChecklist/1.0");
+        _httpClient.DefaultRequestHeaders.CacheControl = new()
+        {
+            NoCache = true,
+            NoStore = true,
+        };
     }
 
     public string ModName { get; set; }
@@ -26,6 +34,35 @@ public class ModConfig
     public static async Task<ModConfig?> FromURL(string url)
     {
         string json = await _httpClient.GetStringAsync(url);
+        return FromString(json);
+    }
+
+    public static async Task<ModConfig?> FromGitHub(string modName)
+    {
+        var url = $"https://api.github.com/repos/Hampo/SHARModChecklist/contents/ModConfigs/{Uri.EscapeDataString(modName)}.json?ref=main";
+        string githubJson = await _httpClient.GetStringAsync(url);
+
+        using var doc = System.Text.Json.JsonDocument.Parse(githubJson);
+        if (!doc.RootElement.TryGetProperty("content", out var content))
+        {
+#if DEBUG
+            Debugger.Break();
+#endif
+            return null;
+        }
+        
+        var encodedContent = content.GetString();
+        if (encodedContent == null)
+        {
+#if DEBUG
+            Debugger.Break();
+#endif
+            return null;
+        }
+
+        var decodedBytes = Convert.FromBase64String(encodedContent);
+        var json = Encoding.UTF8.GetString(decodedBytes);
+
         return FromString(json);
     }
 

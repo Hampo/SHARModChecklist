@@ -106,7 +106,7 @@ public partial class FrmMain : Form
 
         try
         {
-            config ??= await FromURL($"https://raw.githubusercontent.com/Hampo/SHARModChecklist/refs/heads/main/ModConfigs/{mainMod}.json");
+            config ??= await FromGitHub(mainMod);
         }
         catch (Exception ex)
         {
