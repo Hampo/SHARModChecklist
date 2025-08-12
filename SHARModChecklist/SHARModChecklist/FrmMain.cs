@@ -162,9 +162,9 @@ public partial class FrmMain : Form
             var levelData = levelListArray[i];
             var levelRewards = levelRewardsArray[i];
             var levelMerchandiseCount = levelTokenStoreListArray[i].Counter;
-            var levelMerchandise = new Merchandise[levelMerchandiseCount];
+            var levelMerchandise = new List<Merchandise>(levelMerchandiseCount);
             for (int j = 0; j < levelMerchandiseCount; j++)
-                levelMerchandise[j] = mem.Functions.GetMerchandise(i, j);
+                levelMerchandise.Add(mem.Functions.GetMerchandise(i, j));
 
             var buttonText = $"Level {i + 1}";
             if (LevelComplete(i, levelData, levelRewards, levelMerchandise, persistentObjectStates))
@@ -293,9 +293,14 @@ public partial class FrmMain : Form
         handleReward(levelRewards.DefaultSkin);
         handleReward(levelRewards.GoldCards);
 
-        var levelMerchandise = rewardsManager.LevelTokenStoreList[levelIndex].InventoryList.ToArray();
-        for (int i = 0; i < levelMerchandise.Length; i++)
-            handleReward(levelMerchandise[i]);
+        var merchandiseCount = rewardsManager.LevelTokenStoreList[levelIndex].Counter;
+        List<Merchandise> levelMerchandise = new(merchandiseCount);
+        for (int i = 0; i < merchandiseCount; i++)
+        {
+            var merchandise = mem.Functions.GetMerchandise(levelIndex, i);
+            levelMerchandise.Add(merchandise);
+            handleReward(merchandise);
+        }
 
         CLBRewards.EndUpdate();
 
@@ -321,7 +326,7 @@ public partial class FrmMain : Form
         _updating = false;
     }
 
-    private bool LevelComplete(int level, LevelRecord levelData, LevelRewardRecord levelRewards, Merchandise[] levelMerchandise, byte[] persistentObjectStates)
+    private bool LevelComplete(int level, LevelRecord levelData, LevelRewardRecord levelRewards, List<Merchandise> levelMerchandise, byte[] persistentObjectStates)
     {
         if (levelData.Missions.List.Any(x => x.Name != "m0" && x.Name != "m8" && x.Name != "NULL" && !x.Completed))
             return false;
@@ -358,7 +363,7 @@ public partial class FrmMain : Form
         if (!handleReward(levelRewards.GoldCards))
             return false;
 
-        for (int i = 0; i < levelMerchandise.Length; i++)
+        for (int i = 0; i < levelMerchandise.Count; i++)
             if (!handleReward(levelMerchandise[i]))
                 return false;
 
@@ -373,7 +378,7 @@ public partial class FrmMain : Form
         return true;
     }
 
-    private void UpdateData(int level, LevelRecord levelData, LevelRewardRecord levelRewards, Merchandise[] levelMerchandise, byte[] persistentObjectStates)
+    private void UpdateData(int level, LevelRecord levelData, LevelRewardRecord levelRewards, List<Merchandise> levelMerchandise, byte[] persistentObjectStates)
     {
         SetControlText(LblMissions, $"Missions: {levelData.Missions.List.Where(x => x.Name != "m0" && x.Completed).Count()}/7");
         SetControlText(LblStreetRaces, $"Street Races: {levelData.StreetRaces.List.Where(x => x.Completed).Count()}/3");
@@ -405,7 +410,7 @@ public partial class FrmMain : Form
         handleReward(levelRewards.DefaultSkin);
         handleReward(levelRewards.GoldCards);
 
-        for (int i = 0; i < levelMerchandise.Length; i++)
+        for (int i = 0; i < levelMerchandise.Count; i++)
             handleReward(levelMerchandise[i]);
         SetCLBCheckStates(CLBRewards, rewardStates);
         SetControlText(GBRewards, $"Rewards ({CLBRewards.CheckedItems.Count}/{CLBRewards.Items.Count})");
