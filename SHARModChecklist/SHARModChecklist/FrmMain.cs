@@ -11,6 +11,28 @@ public partial class FrmMain : Form
     private static readonly Microsoft.Win32.RegistryKey RegistryKey = Microsoft.Win32.Registry.CurrentUser.CreateSubKey(RegistrySettings, Microsoft.Win32.RegistryKeyPermissionCheck.ReadWriteSubTree);
 
     private ModConfig? _modConfig = null;
+    private ModConfig? ModConfig
+    {
+        get => _modConfig;
+        set
+        {
+            _modConfig = value;
+            if (value != null)
+            {
+                Text = $"SHAR Mod Checklist - {value.DisplayName ?? value.ModName}";
+                for (int i = 0; i < Buttons.Length; i++)
+                {
+                    Buttons[i].Visible = value.Levels.Count > i;
+                }
+            }
+            else
+            {
+                Text = "SHAR Mod Checklist";
+                foreach (var button in Buttons)
+                    button.Visible = true;
+            }
+        }
+    }
     private bool _updating = false;
     private readonly Dictionary<uint, int> _rewardMap = [];
 
@@ -64,12 +86,12 @@ public partial class FrmMain : Form
         if (mainMod == null)
         {
             // I don't want to support vanilla SHAR right now
-            _modConfig = null;
+            ModConfig = null;
             CBLevel.SelectedIndex = -1;
             return;
         }
 
-        if (_modConfig?.ModName == mainMod)
+        if (ModConfig?.ModName == mainMod)
             return;
 
         ModConfig? config = null;
@@ -91,7 +113,7 @@ public partial class FrmMain : Form
             Debugger.Break();
         }
 
-        _modConfig = config;
+        ModConfig = config;
     }
 
     private void CLB_DisableCheck(object sender, ItemCheckEventArgs e)
@@ -206,7 +228,7 @@ public partial class FrmMain : Form
 
         using var mem = new SHARMemory.SHAR.Memory(p);
         await UpdateModConfig(mem);
-        if (_modConfig == null)
+        if (ModConfig == null)
         {
             CBLevel.SelectedIndex = -1;
             return;
@@ -234,7 +256,7 @@ public partial class FrmMain : Form
         _updating = true;
         GBStats.Text = $"Stats - Level {levelIndex + 1}";
 
-        var level = _modConfig.Levels[levelIndex];
+        var level = ModConfig.Levels[levelIndex];
         var levelData = characterSheet.LevelList[levelIndex];
         var levelRewards = rewardsManager.RewardsList[levelIndex];
 
@@ -418,7 +440,7 @@ public partial class FrmMain : Form
 
     private string GetString(FeLanguage feLanguage, string name, string defaultValue)
     {
-        if (_modConfig != null && _modConfig.TextBibleDefaults.TryGetValue(name, out var result))
+        if (ModConfig != null && ModConfig.TextBibleDefaults.TryGetValue(name, out var result))
             return result;
 
         return feLanguage.GetString(name) ?? defaultValue;
@@ -480,6 +502,9 @@ public partial class FrmMain : Form
         if (sender is not Control ctrl || !int.TryParse(ctrl.Tag?.ToString(), out int index))
             return;
 
+        if (ModConfig != null && index >= ModConfig.Levels.Count)
+            return;
+
         CBLevel.SelectedIndex = index;
         GBStats.Focus();
     }
@@ -506,14 +531,14 @@ public partial class FrmMain : Form
 
         CLBCards.BeginUpdate();
 
-        if (_modConfig == null || levelIndex == -1)
+        if (ModConfig == null || levelIndex == -1)
         {
             for (int i = 0; i < 7; i++)
                 CLBCards.Items[i] = TSMIShowCardLocationSpoilers.Checked ? "Unknown Location" : $"Card {i + 1}";
         }
         else
         {
-            var level = _modConfig.Levels[levelIndex];
+            var level = ModConfig.Levels[levelIndex];
             for (int cardIndex = 0; cardIndex < 7; cardIndex++)
             {
                 if (TSMIShowCardLocationSpoilers.Checked)

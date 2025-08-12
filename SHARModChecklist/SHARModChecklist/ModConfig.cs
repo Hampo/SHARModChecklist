@@ -8,6 +8,7 @@ public class ModConfig
     }
 
     public string ModName { get; set; }
+    public string DisplayName { get; set; }
     public Dictionary<string, string> TextBibleDefaults { get; set; } = [];
     public List<Level> Levels { get; set; } = new(7);
 
