@@ -13,6 +13,12 @@ When first detecting a mod, it will first check for a file named `<InternalModNa
 
 If no mod is detected, or if no config is found, the checklist will not function.
 
+The checklist does not auto-swap level. If the `Stats` window is not populated with data, click one of the `Level X` buttons.
+
+If a level is complete, the relevant button will get a `*` appended to the text.
+
+You can check current level progress in the title of the `Stats` box.
+
 # Making a config
 At this time, there are unfortunately no tools to assist in creating mod configs.
 
