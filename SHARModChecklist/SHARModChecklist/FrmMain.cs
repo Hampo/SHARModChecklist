@@ -88,6 +88,7 @@ public partial class FrmMain : Form
             // I don't want to support vanilla SHAR right now
             ModConfig = null;
             CBLevel.SelectedIndex = -1;
+            //SetControlText(GBLevel, "Level - MainMod not found");
             return;
         }
 
@@ -101,6 +102,7 @@ public partial class FrmMain : Form
         }
         catch (Exception ex)
         {
+            MessageBox.Show($"Error loading config from file: {ex}", $"Error loading config for {mainMod}", MessageBoxButtons.OK, MessageBoxIcon.Error);
             Debugger.Break();
         }
 
@@ -110,6 +112,7 @@ public partial class FrmMain : Form
         }
         catch (Exception ex)
         {
+            MessageBox.Show($"Error loading config from GitHub: {ex}", $"Error loading config for {mainMod}", MessageBoxButtons.OK, MessageBoxIcon.Error);
             Debugger.Break();
         }
 
@@ -134,6 +137,7 @@ public partial class FrmMain : Form
         if (p == null)
         {
             CBLevel.SelectedIndex = -1;
+            //SetControlText(GBLevel, "Level - Game not found");
             return;
         }
 
@@ -141,16 +145,19 @@ public partial class FrmMain : Form
         if (mem.Singletons.CharacterSheetManager?.CharacterSheet is not CharacterSheet characterSheet)
         {
             CBLevel.SelectedIndex = -1;
+            //SetControlText(GBLevel, "Level - CharacterSheet not found");
             return;
         }
 
         if (mem.Singletons.RewardsManager is not RewardsManager rewardsManager)
         {
             CBLevel.SelectedIndex = -1;
+            //SetControlText(GBLevel, "Level - RewardsManager not found");
             return;
         }
 
         _updating = true;
+        //SetControlText(GBLevel, "Level");
 
         var levelListArray = characterSheet.LevelList.ToArray();
         var levelRewardsArray = rewardsManager.RewardsList.ToArray();
@@ -189,12 +196,12 @@ public partial class FrmMain : Form
 
         if (levelIndex == -1)
         {
-            GBStats.Text = "Stats";
+            SetControlText(GBStats, "Stats");
             _updating = true;
 
-            LblMissions.Text = "Missions: ?/7";
-            LblStreetRaces.Text = "Street Races: ?/3";
-            LblBonusMission.Text = "Bonus Mission: ?/1";
+            SetControlText(LblMissions, "Missions: ?/7");
+            SetControlText(LblStreetRaces, "Street Races: ?/3");
+            SetControlText(LblBonusMission, "Bonus Mission: ?/1");
 
             CLBCards.BeginUpdate();
             for (int i = 0; i < 7; i++)
@@ -202,23 +209,23 @@ public partial class FrmMain : Form
                 CLBCards.Items[i] = TSMIShowCardLocationSpoilers.Checked ? "Unknown Location" : $"Card {i + 1}";
                 CLBCards.SetItemChecked(i, false);
             }
-            GBCards.Text = "Cards (?/7)";
+            SetControlText(GBCards, "Cards (?/7)");
             CLBCards.EndUpdate();
 
             CLBRewards.Items.Clear();
-            GBRewards.Text = "Rewards (?/?)";
+            SetControlText(GBRewards, "Rewards (?/?)");
             _rewardMap.Clear();
 
             CLBGags.Items.Clear();
-            GBGags.Text = "Gags (?/?)";
+            SetControlText(GBGags, "Gags (?/?)");
 
             CLBWasps.Items.Clear();
-            GBWasps.Text = "Wasps (?/?)";
+            SetControlText(GBWasps, "Wasps (?/?)");
 
             _updating = false;
 
             for (int i = 0; i < Buttons.Length; i++)
-                Buttons[i].Text = $"Level {i + 1}";
+                SetControlText(Buttons[i], $"Level {i + 1}");
 
             return;
         }
@@ -227,6 +234,7 @@ public partial class FrmMain : Form
         if (p == null)
         {
             CBLevel.SelectedIndex = -1;
+            //SetControlText(GBLevel, "Level - Game not found");
             return;
         }
 
@@ -235,18 +243,21 @@ public partial class FrmMain : Form
         if (ModConfig == null)
         {
             CBLevel.SelectedIndex = -1;
+            //SetControlText(GBLevel, "Level - ModConfig not found");
             return;
         }
 
         if (mem.Singletons.CharacterSheetManager?.CharacterSheet is not CharacterSheet characterSheet)
         {
             CBLevel.SelectedIndex = -1;
+            //SetControlText(GBLevel, "Level - CharacterSheet not found");
             return;
         }
 
         if (mem.Singletons.RewardsManager is not RewardsManager rewardsManager)
         {
             CBLevel.SelectedIndex = -1;
+            //SetControlText(GBLevel, "Level - RewardsManager not found");
             return;
         }
 
@@ -254,11 +265,13 @@ public partial class FrmMain : Form
         if (textBible == null)
         {
             CBLevel.SelectedIndex = -1;
+            //SetControlText(GBLevel, "Level - TextBible not found");
             return;
         }
 
         _updating = true;
-        GBStats.Text = $"Stats - Level {levelIndex + 1}";
+        //SetControlText(GBLevel, "Level");
+        SetControlText(GBStats, $"Stats - Level {levelIndex + 1}");
 
         var level = ModConfig.Levels[levelIndex];
         var levelData = characterSheet.LevelList[levelIndex];

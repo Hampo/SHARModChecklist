@@ -40,7 +40,13 @@ public class ModConfig
     public static async Task<ModConfig?> FromGitHub(string modName)
     {
         var url = $"https://api.github.com/repos/Hampo/SHARModChecklist/contents/ModConfigs/{Uri.EscapeDataString(modName)}.json?ref=main";
-        string githubJson = await _httpClient.GetStringAsync(url);
+        using var request = new HttpRequestMessage(HttpMethod.Get, url);
+        using var response = await _httpClient.SendAsync(request);
+        if (response.StatusCode == System.Net.HttpStatusCode.NotFound)
+            return null;
+        response.EnsureSuccessStatusCode();
+        using var responseContent = response.Content;
+        string githubJson = await responseContent.ReadAsStringAsync();
 
         using var doc = System.Text.Json.JsonDocument.Parse(githubJson);
         if (!doc.RootElement.TryGetProperty("content", out var content))
