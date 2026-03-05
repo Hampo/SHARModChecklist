@@ -1,0 +1,158 @@
+{
+  "ModName": "RoadRageReturns",
+  "DisplayName": "Road Rage Returns",
+  "TextBibleDefaults": {
+    "COLLECTIBLE_CARDS": "Postcards",
+    "LEVEL_1": "EPISODE 1",
+    "LEVEL_2": "EPISODE 2",
+    "LEVEL_3": "EPISODE 3",
+    "FAMILYRR": "Family Sedan",
+    "HONORRR": "Soap Box Racer",
+    "SHRINERR": "Shiner's Cart",
+    "TRACTRRR": "Tractor",
+    "CLOWNRR": "Klown Kar",
+    "PLWKNGRR": "Plow King",
+    "MOESDNRR": "Sedan",
+    "SCHOOLRR": "School Bus",
+    "STAWGNRR": "Station Wagon",
+    "MRPLOWRR": "Mr. Plow",
+    "BKBURNRR": "Book Burning Mobile",
+    "BANDITRR": "Li'l Bandit",
+    "HOMER": "Homer - Normal",
+    "MOE": "Moe - Normal",
+    "SNAKE": "Snake - Normal",
+    "S_PRISON": "Snake - Prison",
+    "NEWYEARR": "Happy New Years",
+    "CARD_TITLE_00": "742 Evergreen Terrace",
+    "CARD_TITLE_01": "The Kwik-E-Mart",
+    "CARD_TITLE_02": "Springfield Elementary",
+    "CARD_TITLE_03": "First Church of Springfield",
+    "CARD_TITLE_04": "Springfield Retirement Castle",
+    "CARD_TITLE_05": "Krusty Burger",
+    "CARD_TITLE_06": "Springfield Grocery Store",
+    "CARD_TITLE_08": "Duff Brewery",
+    "CARD_TITLE_09": "The Frying Dutchman",
+    "CARD_TITLE_10": "Googolplex Theatres",
+    "CARD_TITLE_11": "Grandma's World",
+    "CARD_TITLE_12": "Lard Lads",
+    "CARD_TITLE_13": "King Toot's Music Store",
+    "CARD_TITLE_14": "Homer's Night Out",
+    "CARD_TITLE_16": "Stonecutters Lodge",
+    "CARD_TITLE_17": "Mayor Quimby's Mansion",
+    "CARD_TITLE_18": "Springfield Dam",
+    "CARD_TITLE_19": "KBBL Radio",
+    "CARD_TITLE_20": "Duff Stadium",
+    "CARD_TITLE_21": "Springfield Nuclear Power Plant",
+    "CARD_TITLE_22": "Springfield Mall"
+  },
+   "Levels": [
+    {
+      "Cards": [
+        {
+          "Name": "742 Evergreen Terrace",
+          "Location": "By Flanders House"
+        },
+        {
+          "Name": "The Kwik-E-Mart",
+          "Location": "Behind Kwik E Mart"
+        },
+        {
+          "Name": "Springfield Elementary",
+          "Location": "Behind rocks across from Water Hole sign"
+        },
+        {
+          "Name": "First Church of Springfield",
+          "Location": "Hill next to Curch"
+        },
+        {
+          "Name": "Springfield Retirement Castle",
+          "Location": "Above phone booth next to Retirement Castle"
+        },
+        {
+          "Name": "Krusty Burger",
+          "Location": "Behind bench across from Krusty Burger"
+        },
+        {
+          "Name": "Springfield Grocery Store",
+          "Location": "Alleyway across from the Grocery Store"
+        }
+      ],
+		  "Gags": [
+      ],
+      "Wasps": [
+      ]
+    },
+    {
+      "Cards": [
+        {
+          "Name": "Duff Brewery",
+          "Location": "Behind the Duff Dry still"
+        },
+        {
+          "Name": "The Frying Dutchman",
+          "Location": "Hill behind Frying Dutchman"
+        },
+        {
+          "Name": "Googolplex Theatres",
+          "Location": "Dumpsters behind Googlplex"
+        },
+        {
+          "Name": "Grandma's World",
+          "Location": "Behind pillar at Grandma’s World"
+        },
+        {
+          "Name": "Lard Lads",
+          "Location": "Under Lard Lad statue"
+        },
+        {
+          "Name": "King Toot's Music Store",
+          "Location": "Behind Moe’s Tavern/King Toots"
+        },
+        {
+          "Name": "Homer's Night Out",
+          "Location": "In the corner by Bus Stop across from Girlesque"
+        }
+      ],
+		  "Gags": [
+      ],
+      "Wasps": [
+      ]
+    },
+    {
+      "Cards": [
+        {
+          "Name": "Stonecutters Lodge",
+          "Location": "Behind Stonecutters Lodge"
+        },
+        {
+          "Name": "Mayor Quimby's Mansion",
+          "Location": "Bench behind Quimby Mansion"
+        },
+        {
+          "Name": "Springfield Dam",
+          "Location": "Below broken Dam bridge"
+        },
+        {
+          "Name": "KBBL Radio",
+          "Location": "Bathrooms across from K. Radio"
+        },
+        {
+          "Name": "Duff Stadium",
+          "Location": "Middle of Baseball Diamond"
+        },
+        {
+          "Name": "Springfield Nuclear Power Plant",
+          "Location": "Homer’s Workstation in Cooling Towers"
+        },
+        {
+          "Name": "Springfield Mall",
+          "Location": "Springfield Mall General Store checkout"
+        }
+      ],
+		  "Gags": [
+      ],
+      "Wasps": [
+      ]
+    }
+  ]
+}
