@@ -62,19 +62,19 @@
         },
         {
           "Name": "First Church of Springfield",
-          "Location": "Hill next to Curch"
+          "Location": "Hill next to Church"
         },
         {
           "Name": "Springfield Retirement Castle",
-          "Location": "Above phone booth next to Retirement Castle"
+          "Location": "Retirement Castle Phoone Booth"
         },
         {
           "Name": "Krusty Burger",
-          "Location": "Behind bench across from Krusty Burger"
+          "Location": "Bench across from Krusty Burger"
         },
         {
           "Name": "Springfield Grocery Store",
-          "Location": "Alleyway across from the Grocery Store"
+          "Location": "Alleyway across from Grocery Store"
         }
       ],
       "Gags": [
@@ -110,7 +110,7 @@
         },
         {
           "Name": "Homer's Night Out",
-          "Location": "In the corner by Bus Stop across from Girlesque"
+          "Location": "Girlesque Bus Stop"
         }
       ],
       "Gags": [
@@ -142,11 +142,11 @@
         },
         {
           "Name": "Springfield Nuclear Power Plant",
-          "Location": "Homer’s Workstation in Cooling Towers"
+          "Location": "Homer’s Workstation"
         },
         {
           "Name": "Springfield Mall",
-          "Location": "Springfield Mall General Store checkout"
+          "Location": "Springfield Mall General Store"
         }
       ],
       "Gags": [
