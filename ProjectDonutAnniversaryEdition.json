@@ -1,0 +1,293 @@
+{
+  "ModName": "ProjectDonutAnniversaryEdition",
+  "DisplayName": "Project Donut: Anniversary Edition",
+  "TextBibleDefaults": {
+	"H_ANGRY": "Homer - Angry Dad",
+	"H_DT1": "Homer - Donut Team V1 (DM2)",
+	"H_DT2": "Homer - Donut Team V2 (DM3)",
+	"H_DT3": "Homer - Donut Team V3 (DM3)",
+	"H_ELF": "Homer - Elf (DT:EC&C)",
+	"H_GLUTTON": "Homer - Glutton",
+	"H_GOLD": "Homer - Gold (DM4)",
+	"H_INC1": "The Incredible Homer (DM2)",
+	"H_INC2": "The Incredible Homer (DM3)",
+	"H_MRPLOW": "Homer - Mr. Plow (DM4)",
+	"H_PIEMAN": "Homer - Pie Man (DM4)",
+	"H_PINPALS": "Homer - Pin Pals",
+	"H_SICK": "Homer - Sick (DM4)",
+	"H_SSHIELD": "Homer - SpringShield (DM4)",
+	"H_WORK": "Homer - Work (DM4)",
+	"FAMIL_V": "Family Sedan - Original",
+	"MRPLO_V": "Mr. Plow - Red",
+	"CATAPULT": "Catapult",
+	"CLFAMILY": "Family Sedan - DM4",
+	"DONUT_V": "Donut Sedan",
+	"DRONE": "Suspicious Drone",
+	"FS_DM2": "Family Sedan - DM2",
+	"FS_DM3": "Family Sedan - DM3",
+	"MRPLOALT": "Mr. Plow - Orange",
+	"CBONE": "Bonestorm Truck"
+    },
+  "Levels": [
+    {
+		"Cards": [
+        {
+          "Name": "Home Made Football",
+          "Location": "Neighbours Monkey Bars"
+        },
+        {
+          "Name": "Crab Juice",
+          "Location": "Retirement Castle"
+        },
+        {
+          "Name": "Insanity Pepper",
+          "Location": "School Yard"
+        },
+        {
+          "Name": "Spinemelter 2000",
+          "Location": "Tower"
+        },
+        {
+          "Name": "Parchment",
+          "Location": "Gas Station Mansion"
+        },
+        {
+          "Name": "Carbon Rod",
+          "Location": "Homers Workstation"
+        },
+        {
+          "Name": "Mr. Sparkle Box",
+          "Location": "Trailer Park"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_bbq.p3d",
+          "Location": "Barbeque"
+        },
+        {
+          "Filename": "gag_gas.p3d",
+          "Location": "Radioactive Gas Tank"
+        },
+        {
+          "Filename": "gag_shel.p3d",
+          "Location": "Bomb Shelter"
+        },
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Simpson's Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Neighbor's Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Kwik-E-Mart ATM"
+        },
+        {
+          "Filename": "gag_tv.p3d",
+          "Location": "Simpson's TV"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Talky Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_mgr.p3d",
+          "Location": "Merry Go Round"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry the Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Kwik-E-Mart Silent Alarm"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "1_1_RedHouse",
+          "Location": "Red House"
+        },
+        {
+          "Locator": "1_2_ParkSlide",
+          "Location": "Neighbours Slide"
+        },
+        {
+          "Locator": "1_3_FlandSide",
+          "Location": "Flanders House"
+        },
+        {
+          "Locator": "1_4_Wiggums",
+          "Location": "Wiggum's Backyard"
+        },
+        {
+          "Locator": "1_5_Shadow",
+          "Location": "Cemetery Krusty Burger House"
+        },
+        {
+          "Locator": "1_6_Krusty",
+          "Location": "Cemetery Krusty Burger"
+        },
+        {
+          "Locator": "2_1_Bridge",
+          "Location": "Cemetery Bridge"
+        },
+        {
+          "Locator": "2_2_Driveway",
+          "Location": "House Across From Gil"
+        },
+        {
+          "Locator": "2_3_TrailerParkA",
+          "Location": "Trailer Park"
+        },
+        {
+          "Locator": "2_4_TrailerParkB",
+          "Location": "Trailer Park"
+        },
+        {
+          "Locator": "2_5_TireFire",
+          "Location": "Tire Fire"
+        },
+        {
+          "Locator": "2_6_TomaccoA",
+          "Location": "Tomacco Field"
+        },
+        {
+          "Locator": "2_7_TomaccoB",
+          "Location": "Tomacco Field"
+        },
+        {
+          "Locator": "2_8_Ramp",
+          "Location": "Power Plant Ramp"
+        },
+        {
+          "Locator": "3_1_Tank",
+          "Location": "Radioactive Gas Tank Gag"
+        },
+        {
+          "Locator": "3_2_Catwalk",
+          "Location": "Power Plant"
+        },
+        {
+          "Locator": "3_3_LargePipes",
+          "Location": "Power Plant Pipes"
+        },
+        {
+          "Locator": "3_4_Chess",
+          "Location": "Burns Manor Chessboard"
+        },
+        {
+          "Locator": "3_5_Grass",
+          "Location": "Burns Manor Back Garden"
+        },
+        {
+          "Locator": "3_6_TunnelA",
+          "Location": "Stonecutters Tunnel"
+        },
+        {
+          "Locator": "3_7_TunnelB",
+          "Location": "Stonecutters Tunnel"
+        },
+        {
+          "Locator": "4_1_Roundabout",
+          "Location": "Stonecutter Lodge Roundabout"
+        },
+        {
+          "Locator": "4_2_Pool",
+          "Location": "Pool"
+        },
+        {
+          "Locator": "4_3_Bricks",
+          "Location": "Across From Rich Side Gas Station"
+        },
+        {
+          "Locator": "4_4_GasStation",
+          "Location": "Rich Side Gas Station"
+        },
+        {
+          "Locator": "4_5_Bridge",
+          "Location": "Under Bridge"
+        },
+        {
+          "Locator": "4_6_Tower",
+          "Location": "Tower"
+        },
+        {
+          "Locator": "5_1_GroceryStore",
+          "Location": "Grocery Store"
+        },
+        {
+          "Locator": "5_2_SchoolSlide",
+          "Location": "School Yard"
+        },
+        {
+          "Locator": "5_3_SchoolRoof",
+          "Location": "School Roof"
+        },
+        {
+          "Locator": "5_4_Krusty",
+          "Location": "School Krusty Burger"
+        },
+        {
+          "Locator": "5_5_Church",
+          "Location": "Church"
+        },
+        {
+          "Locator": "6_1_Driveway",
+          "Location": "Church Alleyway"
+        },
+        {
+          "Locator": "6_2_Retirement",
+          "Location": "Retirement Castle"
+        },
+        {
+          "Locator": "6_3_Truck",
+          "Location": "Kwik-E-Mart Krusty Burger Wreck"
+        },
+        {
+          "Locator": "6_4_FireTruck",
+          "Location": "Fire Truck"
+        },
+        {
+          "Locator": "6_5_KwikEMartA",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Locator": "6_6_KwikEMartB",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Locator": "6_7_Parking",
+          "Location": "Kwik-E-Mart Krusty Burger Car Park"
+        },
+        {
+          "Locator": "6_8_DuffTruck",
+          "Location": "Duff Truck"
+        }
+      ]
+    }
+  ]
+}
