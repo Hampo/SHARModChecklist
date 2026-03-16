@@ -1,0 +1,170 @@
+{
+  "ModName": "alonglongnight",
+  "DisplayName": "A Long Long Night",
+  "TextBibleDefaults": {
+    "COLLECTIBLE_CARDS": "Developer Cards",
+    "BART_V": "80's Supercar",
+	  "BLACK": "Mysterious Ferrini",
+	  "YELLOW": "Donut Ferrini",
+	  "LAMBO": "1989 Lamborghini Countach",
+	  "MIATA": "1998 Mazda MX-5 (Miata)",
+	  "CPOLIC3": "Police Cruiser",
+	  "BILLBORD": "Promotion Vehicle",
+	  "ENZO": "2002 Ferrari Enzo (Type F410)",
+	  "ENZOGRI": "2002 Ferrari Enzo (Long Night Edition)",
+	  "SPYDER": "2015 Porsche 918 Spyder",
+	  "F40": "1987 Ferrari F40",
+	  "B_OFF": "Bart - Officer",
+	  "B_80": "Bart - 80's",
+	  "B_AGENT": "Bart - Agent",
+    "CARD_TITLE_00": "Mission 1",
+    "CARD_TITLE_01": "Mission 5",
+    "CARD_TITLE_02": "Mission 7",
+    "CARD_TITLE_03": "Street Race 1",
+    "CARD_TITLE_04": "Upgraded Vehicles",
+    "CARD_TITLE_05": "Short Trivia 1",
+    "CARD_TITLE_06": "Short Trivia 2"    
+  },
+  "Levels": [
+    {
+      "Cards": [
+        {
+          "Name": "Mission 1",
+          "Location": "Train Yard Glass Panel"
+        },
+        {
+          "Name": "Mission 5",
+          "Location": "Downtown Krusty Burger"
+        },
+        {
+          "Name": "Mission 7",
+          "Location": "Behind Herman's"
+        },
+        {
+          "Name": "Street Race 1",
+          "Location": "Matlock Expressway"
+        },
+        {
+          "Name": "Upgraded Vehicles",
+          "Location": "Hospital Sign"
+        },
+        {
+          "Name": "Short Trivia 1",
+          "Location": "Construction Elevator Ballast"
+        },
+        {
+          "Name": "Short Trivia 2",
+          "Location": "Sit N Rotate"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_jar.p3d",
+          "Location": "Pickled Eggs"
+        },
+        {
+          "Filename": "gag_flm.p3d",
+          "Location": "Flaming Drinks"
+        },
+        {
+          "Filename": "gag_love.p3d",
+          "Location": "Love Tester"
+        },
+        {
+          "Filename": "gag_slot.p3d",
+          "Location": "Slot Machine"
+        },
+        {
+          "Filename": "l2_dump.p3d",
+          "Location": "Downtown Dumpster"
+       }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_z1_roof1",
+          "Location": "Orange Springfield Park Building"
+        },
+        {
+          "Locator": "w_z1_roof2",
+          "Location": "Orange Springfield Park Building"
+        },
+        {
+          "Locator": "w_z1_roof3",
+          "Location": "Orange Springfield Park Building"
+        },
+        {
+          "Locator": "w_r2_train1",
+          "Location": "Side Train"
+        },
+        {
+          "Locator": "w_r2_train2",
+          "Location": "Side Train"
+        },
+        {
+          "Locator": "w_r2_train3",
+          "Location": "Side Train"
+        },
+        {
+          "Locator": "w_z2_legit1",
+          "Location": "Legitimate Businessmens Roof"
+        },
+        {
+          "Locator": "w_z2_legit2",
+          "Location": "Legitimate Businessmens Roof"
+        },
+        {
+          "Locator": "w_z2_legit3",
+          "Location": "Legitimate Businessmens Roof"
+        },
+        {
+          "Locator": "w_z3_tns1",
+          "Location": "Try-N-Save"
+        },
+        {
+          "Locator": "w_z3_tns2",
+          "Location": "Try-N-Save"
+        },
+        {
+          "Locator": "w_z3_tns3",
+          "Location": "Try-N-Save"
+        },
+        {
+          "Locator": "w_r3_express1",
+          "Location": "Matlock Expressway"
+        },
+        {
+          "Locator": "w_r3_express2",
+          "Location": "Matlock Expressway"
+        },
+        {
+          "Locator": "w_r3_express3",
+          "Location": "Matlock Expressway"
+        },
+        {
+          "Locator": "w_z4_mono1",
+          "Location": "Monorail Station Roof"
+        },
+        {
+          "Locator": "w_z4_mono2",
+          "Location": "Monorail Station Roof"
+        },
+        {
+          "Locator": "w_z4_mono3",
+          "Location": "Monorail Station Roof"
+        },
+        {
+          "Locator": "w_r4_stad1",
+          "Location": "Stadium Platform"
+        },
+        {
+          "Locator": "w_r4_stad2",
+          "Location": "Stadium Platform"
+        },
+        {
+          "Locator": "w_r4_stad3",
+          "Location": "Stadium Platform"
+        }
+      ]
+    }
+  ]
+}
