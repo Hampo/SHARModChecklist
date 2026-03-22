@@ -1,0 +1,364 @@
+{
+  "ModName": "AnnoySquidward",
+  "DisplayName": "Annoy Squidward",
+  "TextBibleDefaults": {
+	"WASPS": "Robots Destroyed",
+	"BOT_V": "Squidward's Boat",
+	"CARDS": "GOLDEN SPATULAS",
+	"BOAT_V": "SpongeBob's Boat",
+	"TUG_V": "Tug Boat",
+	"HOTROD_V": "SpongeBob's Hot Rod",
+	"THUG_V": "Thug Boat",
+	"LIMBO_V": "SpongeBob's Limo",
+	"BATH_V": "Bathmobile",
+	"DOZER_V": "Bulldozer",
+	"FIRE_V": "Fire Boat",
+	"COUPE_V": "Coupe",
+	"SHELL_V": "Shell-Cart",
+	"PATTY_V": "Patty Wagon",
+	"S_SUIC": "Squidward - Red Mist",
+	"S_BEA": "Squidward - Beautiful",
+	"SQUID": "Squidward",
+	"S_KRAK": "Squidward - Captain Magma",
+	"S_BRIN": "SpongeBob - SpongeGar",
+	"S_SQD": "SpongeBob - SquidBob",
+	"S_MMM": "SpongeBob - Mermaid Man",
+	"SPONGE": "SpongeBob",
+	"CARD_TITLE_00": "SKY HIGH",
+	"CARD_TITLE_01": "CORNERED",
+	"CARD_TITLE_02": "RICHY RICH",
+	"CARD_TITLE_03": "GOLD GUNS KRABS",
+	"CARD_TITLE_04": "GOLDEN BACKSCRATCHER",
+	"CARD_TITLE_05": "CHUM IS FUM",
+	"CARD_TITLE_06": "CHROME DOME",
+	"CARD_TITLE_08": "RAMPED UP",
+	"CARD_TITLE_09": "GOLDEN AGE",
+	"CARD_TITLE_10": "ELECTRONICS ON-HOUSE",
+	"CARD_TITLE_11": "CLAM CHOWDER",
+	"CARD_TITLE_12": "FRYCOOK'S CHOICE",
+	"CARD_TITLE_13": "GOOFY GRATE JUMP",
+	"CARD_TITLE_14": "ON FIRE"
+    },
+  "Levels": [
+    {
+		  "Cards": [
+        {
+          "Name": "Sky High",
+          "Location": "Building Across from SpongeBobs"
+        },
+        {
+          "Name": "Cornered",
+          "Location": "Green House Next to Pyramid"
+        },
+        {
+          "Name": "Richy Rich",
+          "Location": "Blue Mansion"
+        },
+        {
+          "Name": "Gold Guns Krabs",
+          "Location": "Rock Bottom Manor Balcony"
+        },
+        {
+          "Name": "Golden Backscratcher",
+          "Location": "Patrick's Rock Interior"
+        },
+        {
+          "Name": "Chum Is Fun",
+          "Location": "Chum Bucket"
+        },
+        {
+          "Name": "Chrome Dome",
+          "Location": "Sandy's Dome"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_bbq.p3d",
+          "Location": "Cake House BBQ"
+        },
+        {
+          "Filename": "gag_gas.p3d",
+          "Location": "Rock Bottom Gas Tank"
+        },
+        {
+          "Filename": "gag_shel.p3d",
+          "Location": "Bomb Shelter"
+        },
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Cake House Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Park Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Slushie Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "FrozenBob"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "Barg'N-Mart ATM"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Tiki"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "SpongeBob Arcade Machine"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Barg'N-Mart Silent Alarm"
+        },
+		        {
+          "Filename": "gag_car.p3d",
+          "Location": "Discount Grocery Sea Horse Ride"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_wiggum",
+          "Location": "Barg'N-Mart"
+        },
+        {
+          "Locator": "w_lemon",
+          "Location": "House 3 Down From Barg'N-Mart"
+        },
+        {
+          "Locator": "w_kwickemart",
+          "Location": "House Across from Cake House"
+        },
+        {
+          "Locator": "w_gasroof",
+          "Location": "Cemetery"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Chum Bucket Gas Station"
+        },
+        {
+          "Locator": "w_playground",
+          "Location": "Dump Shack"
+        },
+        {
+          "Locator": "w_schoolroof1",
+          "Location": "Kelp Field"
+        },
+        {
+          "Locator": "w_tower",
+          "Location": "Rock Bottom Ramp"
+        },
+        {
+          "Locator": "w_bonuscar",
+          "Location": "Rock Bottom"
+        },
+        {
+          "Locator": "w_schoolstairs",
+          "Location": "Rock Bottom Path"
+        },
+        {
+          "Locator": "w_stonetemple",
+          "Location": "Rock Bottom Manor Balcony"
+        },
+        {
+          "Locator": "w_lardlad",
+          "Location": "Pool"
+        },
+        {
+          "Locator": "w_barn",
+          "Location": "Discount Grocery Mart"
+        },
+        {
+          "Locator": "w_trailor2",
+          "Location": "Elementary School Shack"
+        },
+        {
+          "Locator": "w_bridge2",
+          "Location": "Across From Krusty Krab"
+        },
+        {
+          "Locator": "w_flanders",
+          "Location": "Mens Choir Carpark"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "Next To Patrick's Rock"
+        },
+        {
+          "Locator": "w_cardguard",
+          "Location": "House Across from Fire Station"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Gas Station Roof"
+        },
+        {
+          "Locator": "w_bridge1",
+          "Location": "Yellow House Backyard"
+        }
+      ]
+    },
+    {
+		  "Cards": [
+        {
+          "Name": "Ramped Up",
+          "Location": "Hospital Roof"
+        },
+        {
+          "Name": "Golden Age",
+          "Location": "Fan Club"
+        },
+        {
+          "Name": "Electronics On-House",
+          "Location": "Electronics Outhouse"
+        },
+        {
+          "Name": "Clam Chowder",
+          "Location": "Oyster Stadium Clam"
+        },
+        {
+          "Name": "Frycook's Choice",
+          "Location": "Krusty Krab 2"
+        },
+        {
+          "Name": "Goofy Grate Jump",
+          "Location": "Goofy Goober Roof"
+        },
+        {
+          "Name": "On Fire",
+          "Location": "Above Fire Truck"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Park Swingset"
+        },
+        {
+          "Filename": "gag_mgr.p3d",
+          "Location": "Park Merry-Go-Round"
+        },
+        {
+          "Filename": "gag_sqsh2.p3d",
+          "Location": "Slushie Machine"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "First Nautical Bank ATM"
+        },
+        {
+          "Filename": "gag_cata.p3d",
+          "Location": "Catapult"
+        },
+        {
+          "Filename": "gag_bomb.p3d",
+          "Location": "Nuclear Missile"
+        },
+        {
+          "Filename": "gag_car.p3d",
+          "Location": "Supermarket Sea Horse Ride"
+        },
+        {
+          "Filename": "gag_mol2.p3d",
+          "Location": "Driving License Photo"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_popcycle",
+          "Location": "Kelpshake"
+        },
+        {
+          "Locator": "w_rail1",
+          "Location": "Tentacle Acres"
+        },
+        {
+          "Locator": "w_railstair",
+          "Location": "Tentacle Acres"
+        },
+        {
+          "Locator": "w_roof",
+          "Location": "Tartar Highway"
+        },
+        {
+          "Locator": "w_police",
+          "Location": "Tartar Highway"
+        },
+        {
+          "Locator": "w_gazebo",
+          "Location": "Hospital Roof"
+        },
+        {
+          "Locator": "w_legitroof2",
+          "Location": "Below Mermaid Man Balloon"
+        },
+        {
+          "Locator": "w_hospital",
+          "Location": "Krusty Towers Parking"
+        },
+        {
+          "Locator": "w_krusty1",
+          "Location": "Goofy Goober Roof"
+        },
+        {
+          "Locator": "w_museum",
+          "Location": "Alleyway Behind Bank"
+        },
+        {
+          "Locator": "w_legitroof",
+          "Location": "Oyster Stadium Clam"
+        },
+        {
+          "Locator": "w_carwash",
+          "Location": "Krusty Towers"
+        },
+        {
+          "Locator": "w_mono2",
+          "Location": "Krusty Krab 2"
+        },
+        {
+          "Locator": "w_mono1",
+          "Location": "Krusty Krab 2"
+        },
+        {
+          "Locator": "w_shelter",
+          "Location": "SpongeBob Statue"
+        },
+        {
+          "Locator": "w_roundroom",
+          "Location": "Behind Gazebo"
+        },
+        {
+          "Locator": "w_fountain",
+          "Location": "Goofy Goober Roof"
+        },
+        {
+          "Locator": "w_townhall",
+          "Location": "Across From Fire Trucks"
+        },
+        {
+          "Locator": "w_mono3",
+          "Location": "Construction Site"
+        },
+        {
+          "Locator": "w_rail2",
+          "Location": "Supermarket"
+        }
+      ]
+    }
+  ]
+}
