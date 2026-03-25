@@ -1,0 +1,195 @@
+{
+  "ModName": "apulatenightshift",
+  "DisplayName": "Apu's Late Night Shift",
+  "TextBibleDefaults": {
+	"CKWIKE": "Kwike-E-Mart Truck",
+	"LIGHTNIN": "Red Lightning",
+	"ANGST": "Angsterator",
+	"AJOURN": "Apu - Photojournalist",
+	"CARD_TITLE_00": "A Dedicated Employee",
+	"CARD_TITLE_01": "A Fake ID",
+	"CARD_TITLE_02": "ATV",
+	"CARD_TITLE_03": "A Spray Paint Can",
+	"CARD_TITLE_04": "The Red Longhorn",
+	"CARD_TITLE_05": "A Mourning Man Howls",
+	"CARD_TITLE_06": "Our Springfield Location"	
+  },
+  "Levels": [
+    {
+      "Cards": [
+        {
+          "Name": "A Dedicated Employee",
+          "Location": "Kwik-E-Mart Interior"
+        },
+        {
+          "Name": "A Fake ID",
+          "Location": "Cemetery Gas Station"
+        },
+        {
+          "Name": "ATV",
+          "Location": "Trailer Park"
+        },
+        {
+          "Name": "A Spray Paint Can",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Name": "The Red Longhorn",
+          "Location": "Pool Jump"
+        },
+        {
+          "Name": "A Mourning Man Howls",
+          "Location": "Mansion Roof"
+        },
+        {
+          "Name": "Our Springfield Location",
+          "Location": "Grass Across From Kwik-E-Mart"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "l04_bbq.p3d",
+          "Location": "BBQ"
+        },
+        {
+          "Filename": "l04_gas.p3d",
+          "Location": "Radioactive Tank"
+        },
+        {
+          "Filename": "gag_shel.p3d",
+          "Location": "Bomb Shelter"
+        },
+        {
+          "Filename": "l04_swng.p3d",
+          "Location": "Simpsons Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frostillicus"
+        },
+        {
+          "Filename": "gag_atm.p3d",
+          "Location": "ATM"
+        },
+       {
+          "Filename": "gag_tv.p3d",
+          "Location": "Simpsons TV"
+        },
+        {
+          "Filename": "l04_azte.p3d",
+          "Location": "Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_lamp.p3d",
+          "Location": "Krusty Lamp"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Larry The Looter"
+        },
+        {
+          "Filename": "gag_alm2.p3d",
+          "Location": "Silent Alarm"
+        }
+      ],
+      "Wasps": [
+        {
+          "Locator": "w_wiggum",
+          "Location": "Wiggum's Backyard"
+        },
+        {
+          "Locator": "w_chess1",
+          "Location": "Chessboard"
+        },
+        {
+          "Locator": "w_kwickemart",
+          "Location": "Kwik-E-Mart Roof"
+        },
+        {
+          "Locator": "w_gasroof",
+          "Location": "Gas Station Awning"
+        },
+        {
+          "Locator": "w_simpsons",
+          "Location": "Neignbours Backyard"
+        },
+        {
+          "Locator": "w_schoolroof2",
+          "Location": "School Roof"
+        },
+        {
+          "Locator": "w_tower",
+          "Location": "Tower"
+        },
+        {
+          "Locator": "w_chess2",
+          "Location": "Chessboard"
+        },
+        {
+          "Locator": "w_barn",
+          "Location": "Barn"
+        },
+        {
+          "Locator": "w_trailor2",
+          "Location": "Trailer Park"
+        },
+        {
+          "Locator": "w_flanders",
+          "Location": "Flanders Backyard"
+        },
+        {
+          "Locator": "w_schoolstairs",
+          "Location": "School Playground"
+        },
+        {
+          "Locator": "w_powerplant2",
+          "Location": "Power Plant"
+        },
+        {
+          "Locator": "w_wiggum2",
+          "Location": "Wiggum's Backyard"
+        },
+        {
+          "Locator": "w_trailor1",
+          "Location": "Trailer Park"
+        },
+        {
+          "Locator": "w_burns1",
+          "Location": "Burns Mansion Stairs"
+        },
+        {
+          "Locator": "w_burns2",
+          "Location": "Burns Mansion Office"
+        },
+        {
+          "Locator": "w_neighbor1",
+          "Location": "Neignbours Backyard"
+        },
+        {
+          "Locator": "w_gasroof2",
+          "Location": "Gas Station Roof"
+        },
+        {
+          "Locator": "w_schoolroof1",
+          "Location": "School Roof"
+        }
+      ]
+    }
+  ]
+}
