@@ -1,0 +1,124 @@
+{
+  "ModName": "Inspector's Mod of Stupidity",
+  "DisplayName": "Hell Inspector's Mod of Stupidity",
+  "TextBibleDefaults": {
+	"H_FAT": "Homer - Big Super Happy Fun Fun Game",
+	"H_UNDRWR": "Homer - Motorcycle Riding Dome Destroyer",
+	"H_STCROBE": "Homer - Star-Lord",
+	"PESTO_V": "Anti Pesto Van",
+	"FRGREE_V": "Ferrini - Green",
+	"MOWER_V": "Super Mow-ter",
+	"FGSTAR_V": "Ferrini - Green (Star Powered)",
+	"RC_V": "RC",
+	"HINPT_V": "The HindenPeter",
+	"CARD_TITLE_00": "CREATOR - HELL INSPECTOR",
+	"CARD_TITLE_01": "TESTER - NIGHTBANE",
+	"CARD_TITLE_02": "TESTER - TAPPIE",
+	"CARD_TITLE_03": "TESTER - WEASEL ON A STICK",
+	"CARD_TITLE_04": "CHARACTER - WALLACE",
+	"CARD_TITLE_05": "CHARACTER - HANK HILL",
+	"CARD_TITLE_06": "BONUS CHARACTERS"
+  },
+  "Levels": [
+    {
+      "Cards": [
+        {
+          "Name": "Creator - Hell Inspector",
+          "Location": "Cemetery Bridge"
+        },
+        {
+          "Name": "Tester - Nightbane",
+          "Location": "Skinner's Kitchen"
+        },
+        {
+          "Name": "Tester - Tappie",
+          "Location": "Luigi's Casino"
+        },
+        {
+          "Name": "Tester - Weasel on a Stick",
+          "Location": "Carpark Across from Church"
+        },
+        {
+          "Name": "Character - Wallace",
+          "Location": "Top Bun"
+        },
+        {
+          "Name": "Character - Hank",
+          "Location": "Hanks House"
+        },
+        {
+          "Name": "Bonus Characters",
+          "Location": "Wallace Statue"
+        }
+      ],
+      "Gags": [
+        {
+          "Filename": "gag_bbq.p3d",
+          "Location": "BBQ"
+        },
+        {
+          "Filename": "gag_gas.p3d",
+          "Location": "Radioactive Tank"
+        },
+        {
+          "Filename": "gag_shel.p3d",
+          "Location": "Bomb Shelter"
+        },
+        {
+          "Filename": "gag_swng.p3d",
+          "Location": "Simpsons Swingset"
+        },
+        {
+          "Filename": "gag_swg2.p3d",
+          "Location": "Park Swingset"
+        },
+        {
+          "Filename": "gag_sqsh.p3d",
+          "Location": "Squishee Machine"
+        },
+        {
+          "Filename": "gag_jasp.p3d",
+          "Location": "Frozen Peter"
+        },
+       {
+          "Filename": "gag_atm.p3d",
+          "Location": "ATM"
+        },
+        {
+          "Filename": "gag_tv.p3d",
+          "Location": "TV"
+        },
+        {
+          "Filename": "gag_azte.p3d",
+          "Location": "Tiki"
+        },
+        {
+          "Filename": "gag_melt.p3d",
+          "Location": "Homer's Workstation"
+        },
+        {
+          "Filename": "gag_fire.p3d",
+          "Location": "Fire Extinguisher"
+        },
+        {
+          "Filename": "gag_sknr.p3d",
+          "Location": "Fire Alarm"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Donut Counter"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "Vanity Fair"
+        },
+        {
+          "Filename": "gag_tele.p3d",
+          "Location": "PC"
+        }
+      ],
+      "Wasps": [
+      ]
+    }
+  ]
+}
